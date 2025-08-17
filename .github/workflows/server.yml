@@ -9,6 +9,11 @@ permissions:
   actions: write
   contents: read
 
+# ✅ Prevent multiple runs at once
+concurrency:
+  group: mc-server
+  cancel-in-progress: true
+
 jobs:
   run-mc-server:
     runs-on: ubuntu-latest
@@ -70,10 +75,8 @@ jobs:
     - name: Start Minecraft Server (300s then stop)
       run: |
         cd mc-server
-        nohup java -Xms8G -Xmx14G -jar server.jar nogui > server.log 2>&1 &
-        sleep 250
-        pkill -f java
-
+        timeout 300 java -Xms8G -Xmx14G -jar server.jar nogui
+        
     - name: Save full Minecraft Server data
       if: ${{ always() }}
       uses: actions/upload-artifact@v4
