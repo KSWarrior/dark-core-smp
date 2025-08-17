@@ -54,7 +54,7 @@ jobs:
       run: |
         cd mc-server
         nohup java -Xms8G -Xmx14G -jar server.jar nogui > server.log 2>&1 &
-        sleep 300
+        sleep 250
         pkill -f nohup
 
     - name: Save full Minecraft Server data
