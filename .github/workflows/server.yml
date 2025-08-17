@@ -47,11 +47,11 @@ jobs:
         SERVER_PID=$!
         sleep 5
         # Give server time to start and op the player
-        echo "op KS_Warrior" > temp-op-command.txt
+        echo "op ks_warrior" > temp-op-command.txt
         cat temp-op-command.txt | nc localhost 25565 || true
         rm temp-op-command.txt
         # Stop server automatically after 300s
-        sleep 50
+        sleep 18000
         kill $SERVER_PID
 
     - name: Restart Workflow
