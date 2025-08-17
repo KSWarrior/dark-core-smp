@@ -53,14 +53,9 @@ jobs:
     - name: Start Minecraft Server (300s then stop)
       run: |
         cd mc-server
-        nohup java -Xms8G -Xmx14G -jar server.jar nogui &
-        SERVER_PID=$!
-        sleep 5
-        echo "op ks_warrior" > temp-op-command.txt
-        cat temp-op-command.txt | nc localhost 25565 || true
-        rm temp-op-command.txt
+        nohup java -Xms8G -Xmx14G -jar server.jar nogui
         sleep 300
-        kill $SERVER_PID
+        pkill -f nohup
 
     - name: Save full Minecraft Server data
       if: ${{ always() }}
