@@ -25,14 +25,31 @@ jobs:
         distribution: 'temurin'
 
     - name: Install utilities
-      run: sudo apt-get update && sudo apt-get install -y jq curl wget unzip
+      run: sudo apt-get update && sudo apt-get install -y jq curl wget unzip docker-compose
+
+    - name: Create docker-compose.yml (Playit agent)
+      run: |
+        cat > docker-compose.yml <<'EOF'
+        version: '3'
+        services:
+          playit:
+            image: ghcr.io/playit-cloud/playit-agent:0.15
+            container_name: playit
+            restart: unless-stopped
+            network_mode: host
+            environment:
+              - SECRET_KEY=942d4b95533c47f21962214c3dbadf68ecb82c65f8ff033fcb92077d6392f638
+        EOF
+
+    - name: Start Playit agent
+      run: docker-compose up -d
 
     - name: Download previous server data (if exists)
       uses: actions/download-artifact@v4
       with:
         name: mc-server-data
         path: mc-server
-      continue-on-error: true   # Ignore if no previous data
+      continue-on-error: true
 
     - name: Download Minecraft Server (Paper 1.21.5 latest build if missing)
       run: |
@@ -55,7 +72,7 @@ jobs:
         cd mc-server
         nohup java -Xms8G -Xmx14G -jar server.jar nogui > server.log 2>&1 &
         sleep 250
-        pkill -f nohup
+        pkill -f java
 
     - name: Save full Minecraft Server data
       if: ${{ always() }}
