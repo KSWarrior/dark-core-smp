@@ -56,12 +56,15 @@ jobs:
         path: mc-server
       continue-on-error: true
 
-    - name: Download Minecraft Server (Paper 1.21.5 latest build if missing)
+    - name: Prepare Minecraft Server (download Paper + clean plugins)
       run: |
-        mkdir -p mc-server
+        mkdir -p mc-server/plugins
         cd mc-server
-        cd plugins
-        rm playit-minecraft-plugin.jar
+
+        # Remove old Playit plugin if exists
+        rm -f plugins/playit-minecraft-plugin.jar
+
+        # Download Paper JAR if missing
         if [ ! -f server.jar ]; then
           LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/1.21.5 | jq -r '.builds[-1]')
           curl -o server.jar https://api.papermc.io/v2/projects/paper/versions/1.21.5/builds/$LATEST_BUILD/downloads/paper-1.21.5-$LATEST_BUILD.jar
