@@ -57,21 +57,24 @@ jobs:
       continue-on-error: true
 
     - name: Download Minecraft Server (Paper 1.21.5 latest build if missing)
-      run: |
-        mkdir -p mc-server
-        cd mc-server
-        if [ ! -f server.jar ]; then
-          LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/1.21.5 | jq -r '.builds[-1]')
-          curl -o server.jar https://api.papermc.io/v2/projects/paper/versions/1.21.5/builds/$LATEST_BUILD/downloads/paper-1.21.5-$LATEST_BUILD.jar
-          echo "eula=true" > eula.txt
-          echo "online-mode=false" >> server.properties
-          mkdir -p plugins
-          cd plugins
-          wget https://github.com/playit-cloud/playit-minecraft-plugin/releases/latest/download/playit-minecraft-plugin.jar
-        else
-          echo "Server files already exist, skipping download"
-        fi
+  run: |
+    mkdir -p mc-server
+    cd mc-server
+    if [ ! -f server.jar ]; then
+      LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/1.21.5 | jq -r '.builds[-1]')
+      curl -o server.jar https://api.papermc.io/v2/projects/paper/versions/1.21.5/builds/$LATEST_BUILD/downloads/paper-1.21.5-$LATEST_BUILD.jar
+      echo "eula=true" > eula.txt
+    fi
 
+    # Ensure server.properties exists
+    touch server.properties
+    # Replace or add online-mode=false
+    if grep -q "^online-mode=" server.properties; then
+      sed -i 's/^online-mode=.*/online-mode=false/' server.properties
+    else
+      echo "online-mode=false" >> server.properties
+    fi
+          
     - name: Start Minecraft Server (300s then stop)
       run: |
         cd mc-server
