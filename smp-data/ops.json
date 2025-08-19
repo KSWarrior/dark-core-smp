@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "1e2ed9d8-0d62-3316-a34b-dbf969c31909",
+    "name": "ks_warrior",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
