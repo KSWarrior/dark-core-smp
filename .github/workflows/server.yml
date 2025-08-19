@@ -90,15 +90,13 @@ jobs:
     - name: Stop Minecraft Server
       run: |
         sleep 18000
-        echo "stop" > stop.txt
-        cat stop.txt | nc localhost 25575
+        pkill -f nohup
         
     # --- Stop Minecraft server ---
     - name: Stop Minecraft Server
       if: ${{ always() }}
       run: |
-        echo "stop" > stop.txt
-        cat stop.txt | nc localhost 25575
+        pkill -f nohup
         
     # --- Commit & push server data back to repo ---
     - name: Commit Minecraft server data
