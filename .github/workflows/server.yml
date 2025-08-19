@@ -7,9 +7,8 @@ on:
 
 permissions:
   actions: write
-  contents: read
+  contents: write  # Needed to commit changes
 
-# Prevent duplicate runs
 concurrency:
   group: mc-server
   cancel-in-progress: true
@@ -17,7 +16,7 @@ concurrency:
 jobs:
   run-mc-server:
     runs-on: ubuntu-latest
-    timeout-minutes: 305
+    timeout-minutes: 5
 
     steps:
     # --- Checkout repo ---
@@ -33,7 +32,7 @@ jobs:
 
     # --- Required tools ---
     - name: Install utilities
-      run: sudo apt-get update && sudo apt-get install -y jq curl unzip docker-compose
+      run: sudo apt-get update && sudo apt-get install -y jq curl unzip docker-compose git
 
     # --- Setup Playit (Docker) ---
     - name: Create docker-compose.yml (Playit agent)
@@ -53,19 +52,19 @@ jobs:
     - name: Start Playit agent
       run: docker-compose up -d
 
-    # --- Restore server files (if exist) ---
-    - name: Download previous server data (if exists)
-      uses: actions/download-artifact@v4
-      continue-on-error: true
-      with:
-        name: mc-server-data
-        path: mc-server
+    # --- Restore old server data ---
+    - name: Pull latest Minecraft server data
+      run: |
+        git fetch origin main
+        git checkout origin/main -- smp-data
+        echo "Latest server data restored."
+        ls
 
     # --- Setup Paper server ---
     - name: Prepare Minecraft Server
       run: |
-        mkdir -p mc-server/plugins
-        cd mc-server
+        mkdir -p smp-data/plugins
+        cd smp-data
         # Always refresh Paper build if missing
         if [ ! -f server.jar ]; then
           LATEST_BUILD=$(curl -s https://api.papermc.io/v2/projects/paper/versions/1.21.5 | jq -r '.builds[-1]')
@@ -82,18 +81,19 @@ jobs:
     # --- Run Minecraft server ---
     - name: Start Minecraft Server (5 min then stop)
       run: |
-        cd mc-server
+        cd smp-data
         echo "Starting Minecraft server..."
-        timeout 300 java -Xms4G -Xmx8G -jar server.jar nogui || true
+        timeout 250 java -Xms4G -Xmx8G -jar server.jar nogui || true
         echo "Server stopped after 5 minutes."
 
-    # --- Save data ---
-    - name: Save full Minecraft Server data
-      if: ${{ always() }}
-      uses: actions/upload-artifact@v4
-      with:
-        name: mc-server-data
-        path: mc-server
+    # --- Commit & push server data back to repo ---
+    - name: Commit Minecraft server data
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add smp-data
+        git commit -m "Update Minecraft server data"
+        git push origin main || echo "Nothing to commit"
 
     # --- Auto-restart workflow ---
     - name: Restart Workflow
