@@ -54,6 +54,7 @@ jobs:
 
     # --- Restore old server data ---
     - name: Pull latest Minecraft server data
+      if: ${{ always() }}
       run: |
         git fetch origin main
         git checkout origin/main -- smp-data
@@ -83,10 +84,8 @@ jobs:
       run: |
         cd smp-data
         echo "Starting Minecraft server..."
-        nohup java -Xms8G -Xmx14G -jar server.jar nogui 2>&1 &
-        sleep 50
-        ps -ef | grep nohup
-        echo "Server stopped after 5 hours."
+        java -Xms8G -Xmx14G -jar server.jar nogui
+        echo "Server stopped"
 
     # --- Commit & push server data back to repo ---
     - name: Commit Minecraft server data
