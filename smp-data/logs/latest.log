@@ -1,54 +1,107 @@
-[06:03:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
-[06:03:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
-[06:03:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:03:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[06:03:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[06:03:09] [ServerMain/INFO]: Loaded 1373 recipes
-[06:03:09] [ServerMain/INFO]: Loaded 1484 advancements
-[06:03:09] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[06:03:09] [Server thread/INFO]: Loading properties
-[06:03:09] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[06:03:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:03:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:03:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:03:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[06:03:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[06:03:10] [Server thread/INFO]: Default game type: SURVIVAL
-[06:03:10] [Server thread/INFO]: Generating keypair
-[06:03:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:03:10] [Server thread/INFO]: Using epoll channel type
-[06:03:10] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:03:10] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[06:03:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:03:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:03:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:03:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:03:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:03:10] [Server thread/INFO]: Preparing level "world"
-[06:03:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:03:11] [Server thread/INFO]: Preparing spawn area: 0%
-[06:03:12] [Server thread/INFO]: Preparing spawn area: 0%
-[06:03:12] [Server thread/INFO]: Time elapsed: 910 ms
-[06:03:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:03:12] [Server thread/INFO]: Preparing spawn area: 0%
-[06:03:12] [Server thread/INFO]: Time elapsed: 205 ms
-[06:03:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:03:12] [Server thread/INFO]: Preparing spawn area: 0%
-[06:03:12] [Server thread/INFO]: Time elapsed: 108 ms
-[06:03:12] [Server thread/INFO]: [spark] Starting background profiler...
-[06:03:13] [Server thread/INFO]: Done preparing level "world" (2.605s)
-[06:03:13] [Server thread/INFO]: Running delayed init tasks
-[06:03:13] [Server thread/INFO]: Done (14.150s)! For help, type "help"
-[06:03:15] [User Authenticator #0/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[06:03:20] [Server thread/INFO]: ks_warrior joined the game
-[06:03:20] [Server thread/INFO]: ks_warrior[/127.234.172.176:56351] logged in with entity id 141 at ([world]-63.876635395562246, 83.0, 66.0317355285446)
-[06:04:00] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[06:04:00] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[06:04:08] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[06:04:08] [Server thread/INFO]: ks_warrior left the game
-[06:04:14] [User Authenticator #0/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[06:04:16] [Server thread/INFO]: ks_warrior joined the game
-[06:04:16] [Server thread/INFO]: ks_warrior[/127.234.172.176:55445] logged in with entity id 214 at ([world]-78.02460137099277, 91.01457318504872, 60.19467802163787)
-[06:04:22] [Server thread/INFO]: ks_warrior has made the advancement [Cover Me with Diamonds]
-[06:04:38] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[06:04:38] [Server thread/INFO]: ks_warrior left the game
+[09:38:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
+[09:38:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[09:38:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[09:38:48] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[09:38:50] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 1886ms.
+[09:38:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[09:38:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.5.2)
+[09:38:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:38:56] [ServerMain/INFO]: Loaded 1373 recipes
+[09:38:56] [ServerMain/INFO]: Loaded 1484 advancements
+[09:38:56] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[09:38:56] [Server thread/INFO]: Loading properties
+[09:38:56] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[09:38:57] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[09:38:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:38:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:38:57] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[09:38:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[09:38:58] [Server thread/INFO]: Default game type: SURVIVAL
+[09:38:58] [Server thread/INFO]: Generating keypair
+[09:38:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:38:58] [Server thread/INFO]: Using epoll channel type
+[09:38:58] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[09:38:58] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[09:38:58] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
+[09:38:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:38:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[09:38:59] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[09:38:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[09:39:00] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[09:39:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:39:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:39:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:39:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:39:00] [Server thread/INFO]: Preparing level "world"
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.5.2
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: ae257f6
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     A new version (15.7.9) is available! Downloading update...
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[09:39:00] [Folia Async Scheduler Thread #2/WARN]: [SkinsRestorer] [GitHubUpdate] SHA256 hash not found, cannot verify integrity
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 398ms
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer.jar
+[09:39:00] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[09:39:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[09:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[09:39:01] [Server thread/INFO]: Preparing spawn area: 0%
+[09:39:02] [Server thread/INFO]: Time elapsed: 1094 ms
+[09:39:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:39:02] [Server thread/INFO]: Preparing spawn area: 0%
+[09:39:02] [Server thread/INFO]: Time elapsed: 193 ms
+[09:39:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:39:02] [Server thread/INFO]: Preparing spawn area: 0%
+[09:39:02] [Server thread/INFO]: Time elapsed: 129 ms
+[09:39:02] [Server thread/INFO]: [spark] Starting background profiler...
+[09:39:03] [Server thread/INFO]: Done preparing level "world" (2.767s)
+[09:39:03] [Server thread/INFO]: Running delayed init tasks
+[09:39:03] [Server thread/INFO]: Done (17.372s)! For help, type "help"
+[11:15:09] [User Authenticator #0/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:15:09] [Server thread/INFO]: Player5 joined the game
+[11:15:09] [Server thread/INFO]: Player5[/127.115.174.20:55277] logged in with entity id 141 at ([world]-46.5, 82.0, 65.5)
+[11:23:59] [Server thread/INFO]: Player5 lost connection: Timed out
+[11:23:59] [Server thread/INFO]: Player5 left the game
+[11:44:24] [User Authenticator #1/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:44:24] [Server thread/INFO]: Player5 joined the game
+[11:44:24] [Server thread/INFO]: Player5[/127.162.54.41:55881] logged in with entity id 1088 at ([world]-52.80591540011318, 79.0, 69.87694889364622)
+[11:46:45] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:46:45] [Server thread/INFO]: Player5 left the game
+[11:48:47] [User Authenticator #2/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:48:48] [Server thread/INFO]: Player5 joined the game
+[11:48:48] [Server thread/INFO]: Player5[/127.248.82.247:60067] logged in with entity id 1349 at ([world]-56.7, 76.62336950176135, 68.3)
+[12:08:49] [Server thread/INFO]: Player5 has made the advancement [Stone Age]
+[12:09:26] [Server thread/INFO]: Player5 was shot by Skeleton
+[12:09:45] [Server thread/INFO]: Player5 was slain by Zombie
+[12:09:56] [Server thread/INFO]: Player5 was slain by Zombie
+[12:10:29] [Server thread/INFO]: Player5 was slain by Zombie
+[12:10:43] [Server thread/INFO]: Player5 was slain by Zombie
+[12:18:09] [Server thread/INFO]: Player5 was shot by Skeleton
+[12:26:57] [Server thread/INFO]: Player5 was slain by Zombie
+[12:27:35] [Server thread/INFO]: Player5 was slain by Spider
+[12:28:15] [Server thread/INFO]: Player5 was slain by Spider
+[13:06:30] [Server thread/INFO]: Player5 drowned
+[13:10:02] [Server thread/INFO]: Player5 was shot by Skeleton
+[13:29:02] [Server thread/INFO]: Player5 was slain by Zombie
+[13:29:05] [Server thread/WARN]: Player5 moved too quickly! 0.0,-10.0,3.2105688954145677
+[13:30:00] [Server thread/INFO]: Player5 was slain by Zombie
+[13:47:16] [Server thread/INFO]: Player5 drowned
+[13:48:02] [Server thread/INFO]: Player5 was slain by Zombie
+[13:48:54] [Server thread/INFO]: Player5 was slain by Zombie
+[13:49:06] [Server thread/INFO]: Player5 was slain by Zombie
+[13:49:35] [Server thread/INFO]: Player5 was slain by Zombie
+[13:49:54] [Server thread/INFO]: Player5 was slain by Zombie
+[13:50:47] [Server thread/INFO]: Player5 was slain by Zombie
+[13:51:08] [Server thread/INFO]: Player5 was slain by Zombie
+[14:04:59] [Server thread/INFO]: Player5 lost connection: Timed out
+[14:04:59] [Server thread/INFO]: Player5 left the game
