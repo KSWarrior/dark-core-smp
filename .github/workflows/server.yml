@@ -84,9 +84,22 @@ jobs:
       run: |
         cd smp-data
         echo "Starting Minecraft server..."
-        java -Xms8G -Xmx14G -jar server.jar nogui
-        echo "Server stopped"
+        nohup java -Xms8G -Xmx14G -jar server.jar nogui > server.log 2>&1 &
 
+    # --- Stop Minecraft server ---
+    - name: Stop Minecraft Server
+      run: |
+        sleep 18000
+        echo "stop" > stop.txt
+        cat stop.txt | nc localhost 25575
+        
+    # --- Stop Minecraft server ---
+    - name: Stop Minecraft Server
+      if: ${{ always() }}
+      run: |
+        echo "stop" > stop.txt
+        cat stop.txt | nc localhost 25575
+        
     # --- Commit & push server data back to repo ---
     - name: Commit Minecraft server data
       if: ${{ always() }}
