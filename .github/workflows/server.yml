@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run-mc-server:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 305
 
     steps:
     # --- Checkout repo ---
@@ -79,13 +79,14 @@ jobs:
         fi
 
     # --- Run Minecraft server ---
-    - name: Start Minecraft Server (5 min then stop)
+    - name: Start Minecraft Server (5 hours then stop)
       run: |
         cd smp-data
         echo "Starting Minecraft server..."
-        timeout 250 java -Xms4G -Xmx8G -jar server.jar nogui || true
-        echo "Server stopped after 5 minutes."
-
+        nohup java -Xms8G -Xmx14G -jar server.jar nogui > server.log 2>&1 &
+        ps -ef | grep nohup
+        echo "Server stopped after 5 hours."
+        
     # --- Commit & push server data back to repo ---
     - name: Commit Minecraft server data
       run: |
