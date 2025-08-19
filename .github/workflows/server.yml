@@ -84,6 +84,7 @@ jobs:
         cd smp-data
         echo "Starting Minecraft server..."
         nohup java -Xms8G -Xmx14G -jar server.jar nogui > server.log 2>&1 &
+        sleep 18181
         ps -ef | grep nohup
         echo "Server stopped after 5 hours."
         
