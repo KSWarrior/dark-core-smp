@@ -88,19 +88,9 @@ jobs:
         ps -ef | grep nohup
         echo "Server stopped after 5 hours."
 
-    - name: see forder smp-data
-      run: |
-        cd smp-data
-        clear
-        ls
-
-    - name: see forder plugins
-      run: |
-        cd smp-data/plugins
-        clear
-        ls
     # --- Commit & push server data back to repo ---
     - name: Commit Minecraft server data
+      if: ${{ always() }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
