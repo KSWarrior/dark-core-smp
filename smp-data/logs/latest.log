@@ -1,1036 +1,1278 @@
-[02:27:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
-[02:27:55] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
-[02:27:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:27:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[02:27:56] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[07:29:32] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
+[07:29:32] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[07:29:32] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:29:33] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[07:29:33] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - SkinsRestorer (15.7.9)
-[02:28:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:28:04] [ServerMain/INFO]: Loaded 1373 recipes
-[02:28:04] [ServerMain/INFO]: Loaded 1484 advancements
-[02:28:04] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[02:28:04] [Server thread/INFO]: Loading properties
-[02:28:04] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[02:28:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[02:28:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:28:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:28:06] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[02:28:06] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[02:28:06] [Server thread/INFO]: Default game type: SURVIVAL
-[02:28:06] [Server thread/INFO]: Generating keypair
-[02:28:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:28:06] [Server thread/INFO]: Using epoll channel type
-[02:28:06] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:28:06] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[02:28:06] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
-[02:28:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:28:06] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
-[02:28:07] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
-[02:28:08] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[02:28:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:28:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:28:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:28:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:28:08] [Server thread/INFO]: Preparing level "world"
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[02:28:08] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[02:28:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
-[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
-[02:28:09] [Server thread/INFO]: Time elapsed: 860 ms
-[02:28:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
-[02:28:09] [Server thread/INFO]: Time elapsed: 233 ms
-[02:28:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
-[02:28:10] [Server thread/INFO]: Time elapsed: 109 ms
-[02:28:10] [Server thread/INFO]: [spark] Starting background profiler...
-[02:28:11] [Server thread/INFO]: Done preparing level "world" (2.956s)
-[02:28:11] [Server thread/INFO]: Running delayed init tasks
-[02:28:11] [Server thread/INFO]: Done (18.805s)! For help, type "help"
-[02:44:55] [User Authenticator #0/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[02:45:00] [Server thread/INFO]: ks_warrior joined the game
-[02:45:00] [Server thread/INFO]: ks_warrior[/127.81.252.226:44387] logged in with entity id 100 at ([world]-70.87724815183061, 80.0, 57.90926698835264)
-[02:45:23] [Server thread/INFO]: ks_warrior has made the advancement [Stone Age]
-[02:49:17] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[02:49:17] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[02:49:53] [Server thread/INFO]: ks_warrior issued server command: /gamemode survival
-[02:49:53] [Server thread/INFO]: [ks_warrior: Set own game mode to Survival Mode]
-[02:49:56] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[02:49:56] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[02:51:37] [Server thread/INFO]: ks_warrior issued server command: /gamemode survival
-[02:51:37] [Server thread/INFO]: [ks_warrior: Set own game mode to Survival Mode]
-[02:52:17] [Server thread/INFO]: ks_warrior issued server command: /skin set https://i.imgur.com/xbwuQEd.png
-[02:52:37] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[02:52:37] [Server thread/INFO]: ks_warrior left the game
-[02:54:34] [User Authenticator #1/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[02:54:38] [Server thread/INFO]: ks_warrior joined the game
-[02:54:38] [Server thread/INFO]: ks_warrior[/127.81.252.226:34079] logged in with entity id 1423 at ([world]-213.65375971005935, 63.0, 45.477796234698495)
-[02:54:52] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[02:54:52] [Server thread/INFO]: ks_warrior left the game
-[02:55:13] [User Authenticator #1/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[02:55:16] [Server thread/INFO]: ks_warrior joined the game
-[02:55:16] [Server thread/INFO]: ks_warrior[/127.81.252.226:56789] logged in with entity id 1486 at ([world]-213.65375971005935, 63.0, 45.477796234698495)
-[02:56:40] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[02:56:40] [Server thread/INFO]: ks_warrior left the game
-[02:56:48] [User Authenticator #2/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[02:56:51] [Server thread/INFO]: ks_warrior joined the game
-[02:56:51] [Server thread/INFO]: ks_warrior[/127.81.252.226:58425] logged in with entity id 1683 at ([world]-212.29310195841163, 63.0, 46.685233842812465)
-[02:57:20] [Server thread/INFO]: ks_warrior issued server command: /tps
-[02:57:42] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[02:57:42] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[02:58:12] [Server thread/INFO]: ks_warrior issued server command: /gamemode survival
-[02:58:12] [Server thread/INFO]: [ks_warrior: Set own game mode to Survival Mode]
-[02:59:02] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[02:59:02] [Server thread/INFO]: ks_warrior left the game
-[02:59:09] [User Authenticator #3/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[02:59:11] [Server thread/INFO]: ks_warrior joined the game
-[02:59:11] [Server thread/INFO]: ks_warrior[/127.81.252.226:59573] logged in with entity id 2029 at ([world]-209.10329017881443, 63.0, 48.493628260844936)
-[02:59:21] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[02:59:21] [Server thread/INFO]: ks_warrior left the game
-[03:05:02] [User Authenticator #4/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:05:03] [Server thread/INFO]: Player5 joined the game
-[03:05:03] [Server thread/INFO]: Player5[/127.93.24.18:56785] logged in with entity id 2067 at ([world]-45.090630612957156, 78.0, 80.3)
-[03:05:24] [User Authenticator #4/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[03:05:26] [Server thread/INFO]: ks_warrior joined the game
-[03:05:26] [Server thread/INFO]: ks_warrior[/127.81.252.226:38649] logged in with entity id 2176 at ([world]-209.10329017881443, 63.0, 48.493628260844936)
-[03:05:54] [Server thread/INFO]: ks_warrior issued server command: /tp ks_warrior Player5
-[03:05:54] [Server thread/INFO]: [ks_warrior: Teleported ks_warrior to Player5]
-[03:06:02] [Server thread/INFO]: Player5 was slain by Zombie
-[03:07:19] [Server thread/INFO]: ks_warrior issued server command: /tp ks_warrior Player5
-[03:07:19] [Server thread/INFO]: [ks_warrior: Teleported ks_warrior to Player5]
-[03:07:49] [Server thread/INFO]: ks_warrior issued server command: /effect give Player5 minecraft:regeneration infinite 255 true
-[03:07:49] [Server thread/INFO]: [ks_warrior: Applied effect Regeneration to Player5]
-[03:08:10] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[03:08:10] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[03:08:43] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[03:08:43] [Server thread/INFO]: ks_warrior left the game
-[03:13:29] [User Authenticator #5/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[03:13:31] [Server thread/INFO]: ks_warrior joined the game
-[03:13:31] [Server thread/INFO]: ks_warrior[/127.81.252.226:60557] logged in with entity id 3175 at ([world]-33.23302972030047, 72.0, 49.75687201074056)
-[03:13:47] [Server thread/INFO]: ks_warrior issued server command: /gamemode survival
-[03:13:47] [Server thread/INFO]: [ks_warrior: Set own game mode to Survival Mode]
-[03:15:00] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[03:15:00] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[03:16:10] [Server thread/INFO]: Player5 has made the advancement [Cover Me with Diamonds]
-[03:17:11] [Server thread/INFO]: ks_warrior issued server command: /gamemode survival
-[03:17:11] [Server thread/INFO]: [ks_warrior: Set own game mode to Survival Mode]
-[03:17:16] [Server thread/WARN]: Player5 was kicked for floating too long!
-[03:17:16] [Server thread/INFO]: Player5 lost connection: Flying is not enabled on this server
-[03:17:16] [Server thread/INFO]: Player5 left the game
-[03:18:48] [Server thread/INFO]: ks_warrior issued server command: /tps
-[03:18:53] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[03:18:53] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[03:21:51] [Server thread/INFO]: ks_warrior issued server command: /tps
-[03:22:01] [Server thread/INFO]: ks_warrior lost connection: Timed out
-[03:22:01] [Server thread/INFO]: ks_warrior left the game
-[03:22:20] [User Authenticator #6/INFO]: UUID of player ks_warrior is 1e2ed9d8-0d62-3316-a34b-dbf969c31909
-[03:22:22] [Server thread/INFO]: ks_warrior joined the game
-[03:22:22] [Server thread/INFO]: ks_warrior[/127.81.252.226:47501] logged in with entity id 7003 at ([world]-32.9848350278551, 89.8351264638184, 79.80086689693255)
-[03:22:30] [Server thread/INFO]: ks_warrior issued server command: /tps
-[03:22:51] [Server thread/INFO]: ks_warrior issued server command: /gamemode survival
-[03:22:51] [Server thread/INFO]: [ks_warrior: Set own game mode to Survival Mode]
-[03:22:58] [Server thread/INFO]: ks_warrior issued server command: /gamemode creative
-[03:22:58] [Server thread/INFO]: [ks_warrior: Set own game mode to Creative Mode]
-[03:23:03] [Server thread/INFO]: ks_warrior issued server command: /tps
-[03:23:42] [Server thread/INFO]: ks_warrior issued server command: /tps
-[03:23:48] [Server thread/INFO]: ks_warrior lost connection: Disconnected
-[03:23:48] [Server thread/INFO]: ks_warrior left the game
-[03:53:31] [User Authenticator #7/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:53:32] [Server thread/INFO]: Player5 joined the game
-[03:53:32] [Server thread/INFO]: Player5[/127.234.11.5:56535] logged in with entity id 7645 at ([world]-39.3, 67.09456764752272, 45.3)
-[03:54:25] [Server thread/INFO]: Player5 lost connection: Disconnected
-[03:54:25] [Server thread/INFO]: Player5 left the game
-[03:54:48] [User Authenticator #8/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:54:48] [Server thread/INFO]: Player5 joined the game
-[03:54:48] [Server thread/INFO]: Player5[/127.144.92.213:53739] logged in with entity id 7745 at ([world]-39.93160502496371, 67.0, 45.669589203480726)
-[03:55:41] [Server thread/INFO]: Player5 lost connection: Disconnected
-[03:55:41] [Server thread/INFO]: Player5 left the game
-[03:55:58] [User Authenticator #9/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:55:59] [Server thread/INFO]: Player5 joined the game
-[03:55:59] [Server thread/INFO]: Player5[/127.234.14.154:39033] logged in with entity id 7850 at ([world]-40.7, 67.0, 48.7)
-[03:56:52] [Server thread/INFO]: Player5 lost connection: Disconnected
-[03:56:52] [Server thread/INFO]: Player5 left the game
-[03:57:11] [User Authenticator #10/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:57:12] [Server thread/INFO]: Player5 joined the game
-[03:57:12] [Server thread/INFO]: Player5[/127.102.81.19:57905] logged in with entity id 7942 at ([world]-40.49233691777715, 67.0, 43.3)
-[03:58:04] [Server thread/INFO]: Player5 lost connection: Disconnected
-[03:58:04] [Server thread/INFO]: Player5 left the game
-[03:58:24] [User Authenticator #11/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:58:25] [Server thread/INFO]: Player5 joined the game
-[03:58:25] [Server thread/INFO]: Player5[/127.132.31.16:34545] logged in with entity id 8033 at ([world]-40.3, 66.0, 45.60254533903226)
-[03:59:17] [Server thread/INFO]: Player5 lost connection: Disconnected
-[03:59:17] [Server thread/INFO]: Player5 left the game
-[03:59:36] [User Authenticator #12/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[03:59:37] [Server thread/INFO]: Player5 joined the game
-[03:59:37] [Server thread/INFO]: Player5[/127.242.154.188:53969] logged in with entity id 8118 at ([world]-38.3, 67.0, 45.67378052658653)
-[04:00:30] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:00:30] [Server thread/INFO]: Player5 left the game
-[04:00:49] [User Authenticator #13/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:00:50] [Server thread/INFO]: Player5 joined the game
-[04:00:50] [Server thread/INFO]: Player5[/127.65.200.2:50205] logged in with entity id 8212 at ([world]-40.7, 67.0, 43.3251923318017)
-[04:01:43] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:01:43] [Server thread/INFO]: Player5 left the game
-[04:02:12] [User Authenticator #14/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:02:12] [Server thread/INFO]: Player5 joined the game
-[04:02:12] [Server thread/INFO]: Player5[/127.133.179.149:43005] logged in with entity id 8301 at ([world]-40.7, 67.0, 43.71319797861153)
-[04:03:05] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:03:05] [Server thread/INFO]: Player5 left the game
-[04:03:27] [User Authenticator #15/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:03:28] [Server thread/INFO]: Player5 joined the game
-[04:03:28] [Server thread/INFO]: Player5[/127.117.171.38:43161] logged in with entity id 8386 at ([world]-40.7, 67.0, 43.3)
-[04:04:20] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:04:20] [Server thread/INFO]: Player5 left the game
-[04:04:36] [User Authenticator #16/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:04:37] [Server thread/INFO]: Player5 joined the game
-[04:04:37] [Server thread/INFO]: Player5[/127.71.106.154:43941] logged in with entity id 8472 at ([world]-40.7, 66.0, 45.7)
-[04:05:30] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:05:30] [Server thread/INFO]: Player5 left the game
-[04:05:50] [User Authenticator #17/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:05:50] [Server thread/INFO]: Player5 joined the game
-[04:05:50] [Server thread/INFO]: Player5[/127.199.153.63:60989] logged in with entity id 8561 at ([world]-38.3, 67.0, 44.3)
-[04:06:43] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:06:43] [Server thread/INFO]: Player5 left the game
-[04:07:07] [User Authenticator #18/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:07:08] [Server thread/INFO]: Player5 joined the game
-[04:07:08] [Server thread/INFO]: Player5[/127.147.27.210:35335] logged in with entity id 8656 at ([world]-39.33769801142154, 67.0, 43.3)
-[04:08:00] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:08:00] [Server thread/INFO]: Player5 left the game
-[04:08:20] [User Authenticator #19/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:08:21] [Server thread/INFO]: Player5 joined the game
-[04:08:21] [Server thread/INFO]: Player5[/127.63.119.140:40419] logged in with entity id 8742 at ([world]-40.7, 67.0, 44.67066329634979)
-[04:09:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:09:14] [Server thread/INFO]: Player5 left the game
-[04:09:40] [User Authenticator #20/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:09:40] [Server thread/INFO]: Player5 joined the game
-[04:09:40] [Server thread/INFO]: Player5[/127.186.40.8:56069] logged in with entity id 8840 at ([world]-40.7, 66.0, 45.3)
-[04:10:33] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:10:33] [Server thread/INFO]: Player5 left the game
-[04:10:55] [User Authenticator #21/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:10:56] [Server thread/INFO]: Player5 joined the game
-[04:10:56] [Server thread/INFO]: Player5[/127.132.158.47:37973] logged in with entity id 8927 at ([world]-40.7, 66.0, 45.3)
-[04:11:48] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:11:48] [Server thread/INFO]: Player5 left the game
-[04:12:14] [User Authenticator #22/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:12:15] [Server thread/INFO]: Player5 joined the game
-[04:12:15] [Server thread/INFO]: Player5[/127.106.5.46:32863] logged in with entity id 9024 at ([world]-38.3, 67.0, 47.11860054445984)
-[04:13:07] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:13:07] [Server thread/INFO]: Player5 left the game
-[04:13:36] [User Authenticator #23/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:13:36] [Server thread/INFO]: Player5 joined the game
-[04:13:36] [Server thread/INFO]: Player5[/127.209.34.86:60713] logged in with entity id 9121 at ([world]-40.7, 67.0, 47.54731783461468)
-[04:14:30] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:14:30] [Server thread/INFO]: Player5 left the game
-[04:14:50] [User Authenticator #24/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:14:51] [Server thread/INFO]: Player5 joined the game
-[04:14:51] [Server thread/INFO]: Player5[/127.216.132.65:44267] logged in with entity id 9208 at ([world]-40.7, 67.0, 48.7)
-[04:15:43] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:15:43] [Server thread/INFO]: Player5 left the game
-[04:16:02] [User Authenticator #25/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:16:03] [Server thread/INFO]: Player5 joined the game
-[04:16:03] [Server thread/INFO]: Player5[/127.158.246.28:44935] logged in with entity id 9298 at ([world]-38.3, 67.0, 44.83420532792205)
-[04:16:55] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:16:55] [Server thread/INFO]: Player5 left the game
-[04:17:15] [User Authenticator #26/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:17:15] [Server thread/INFO]: Player5 joined the game
-[04:17:15] [Server thread/INFO]: Player5[/127.19.193.134:43281] logged in with entity id 9406 at ([world]-38.3, 67.0, 48.7)
-[04:18:08] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:18:08] [Server thread/INFO]: Player5 left the game
-[04:18:24] [User Authenticator #27/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:18:25] [Server thread/INFO]: Player5 joined the game
-[04:18:25] [Server thread/INFO]: Player5[/127.28.151.46:50269] logged in with entity id 9499 at ([world]-38.3, 67.0, 48.7)
-[04:19:18] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:19:18] [Server thread/INFO]: Player5 left the game
-[04:19:39] [User Authenticator #28/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:19:40] [Server thread/INFO]: Player5 joined the game
-[04:19:40] [Server thread/INFO]: Player5[/127.36.222.112:53527] logged in with entity id 9594 at ([world]-38.3, 67.0, 48.323481178209114)
-[04:20:34] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:20:34] [Server thread/INFO]: Player5 left the game
-[04:20:51] [User Authenticator #29/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:20:51] [Server thread/INFO]: Player5 joined the game
-[04:20:51] [Server thread/INFO]: Player5[/127.236.98.239:49537] logged in with entity id 9689 at ([world]-40.7, 67.0, 47.65389058076508)
-[04:21:45] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:21:45] [Server thread/INFO]: Player5 left the game
-[04:22:05] [User Authenticator #30/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:22:06] [Server thread/INFO]: Player5 joined the game
-[04:22:06] [Server thread/INFO]: Player5[/127.216.104.108:60345] logged in with entity id 9778 at ([world]-39.0521225012539, 67.0, 48.7)
-[04:22:59] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:22:59] [Server thread/INFO]: Player5 left the game
-[04:23:21] [User Authenticator #31/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:23:22] [Server thread/INFO]: Player5 joined the game
-[04:23:22] [Server thread/INFO]: Player5[/127.180.114.227:38531] logged in with entity id 9873 at ([world]-40.7, 67.0, 47.71683477021247)
-[04:24:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:24:14] [Server thread/INFO]: Player5 left the game
-[04:24:36] [User Authenticator #32/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:24:36] [Server thread/INFO]: Player5 joined the game
-[04:24:36] [Server thread/INFO]: Player5[/127.208.60.68:46659] logged in with entity id 9971 at ([world]-39.98942414944721, 67.0, 43.3)
-[04:25:29] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:25:29] [Server thread/INFO]: Player5 left the game
-[04:25:52] [User Authenticator #33/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:25:52] [Server thread/INFO]: Player5 joined the game
-[04:25:52] [Server thread/INFO]: Player5[/127.4.209.22:45155] logged in with entity id 10056 at ([world]-40.69999998807907, 66.0, 45.30000001192093)
-[04:26:45] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:26:45] [Server thread/INFO]: Player5 left the game
-[04:27:07] [User Authenticator #34/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:27:08] [Server thread/INFO]: Player5 joined the game
-[04:27:08] [Server thread/INFO]: Player5[/127.120.54.184:34409] logged in with entity id 10151 at ([world]-40.3, 66.0, 45.3)
-[04:28:01] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:28:01] [Server thread/INFO]: Player5 left the game
-[04:28:28] [User Authenticator #35/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:28:29] [Server thread/INFO]: Player5 joined the game
-[04:28:29] [Server thread/INFO]: Player5[/127.39.249.223:45221] logged in with entity id 10249 at ([world]-40.7, 66.0, 45.3)
-[04:29:21] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:29:21] [Server thread/INFO]: Player5 left the game
-[04:29:41] [User Authenticator #36/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:29:41] [Server thread/INFO]: Player5 joined the game
-[04:29:41] [Server thread/INFO]: Player5[/127.106.42.111:55713] logged in with entity id 10355 at ([world]-40.7, 66.0, 45.7)
-[04:30:35] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:30:35] [Server thread/INFO]: Player5 left the game
-[04:30:59] [User Authenticator #37/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:31:00] [Server thread/INFO]: Player5 joined the game
-[04:31:00] [Server thread/INFO]: Player5[/127.203.45.186:56953] logged in with entity id 10450 at ([world]-40.3, 66.0, 45.3)
-[04:31:53] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:31:53] [Server thread/INFO]: Player5 left the game
-[04:32:13] [User Authenticator #38/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:32:14] [Server thread/INFO]: Player5 joined the game
-[04:32:14] [Server thread/INFO]: Player5[/127.44.74.168:33293] logged in with entity id 10549 at ([world]-40.3, 66.0, 45.7)
-[04:33:07] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:33:07] [Server thread/INFO]: Player5 left the game
-[04:33:34] [User Authenticator #39/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:33:34] [Server thread/INFO]: Player5 joined the game
-[04:33:34] [Server thread/INFO]: Player5[/127.130.237.105:57733] logged in with entity id 10631 at ([world]-40.7, 66.0, 45.7)
-[04:34:27] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:34:27] [Server thread/INFO]: Player5 left the game
-[04:34:46] [User Authenticator #40/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:34:47] [Server thread/INFO]: Player5 joined the game
-[04:34:47] [Server thread/INFO]: Player5[/127.192.64.174:49217] logged in with entity id 10731 at ([world]-40.3, 66.0, 45.7)
-[04:35:39] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:35:39] [Server thread/INFO]: Player5 left the game
-[04:36:03] [User Authenticator #41/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:36:04] [Server thread/INFO]: Player5 joined the game
-[04:36:04] [Server thread/INFO]: Player5[/127.25.245.140:54091] logged in with entity id 10827 at ([world]-38.33075689440248, 67.0, 46.99557713856681)
-[04:36:57] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:36:57] [Server thread/INFO]: Player5 left the game
-[04:37:24] [User Authenticator #42/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:37:25] [Server thread/INFO]: Player5 joined the game
-[04:37:25] [Server thread/INFO]: Player5[/127.178.157.142:40637] logged in with entity id 10926 at ([world]-39.17854356713804, 67.0, 48.7)
-[04:38:18] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:38:18] [Server thread/INFO]: Player5 left the game
-[04:38:33] [User Authenticator #43/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:38:34] [Server thread/INFO]: Player5 joined the game
-[04:38:34] [Server thread/INFO]: Player5[/127.70.70.214:60729] logged in with entity id 11019 at ([world]-40.7, 67.0, 48.7)
-[04:39:27] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:39:27] [Server thread/INFO]: Player5 left the game
-[04:39:47] [User Authenticator #44/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:39:48] [Server thread/INFO]: Player5 joined the game
-[04:39:48] [Server thread/INFO]: Player5[/127.14.38.21:37557] logged in with entity id 11102 at ([world]-38.3, 67.0, 44.3)
-[04:40:40] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:40:40] [Server thread/INFO]: Player5 left the game
-[04:41:00] [User Authenticator #45/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:41:00] [Server thread/INFO]: Player5 joined the game
-[04:41:00] [Server thread/INFO]: Player5[/127.194.221.150:52833] logged in with entity id 11191 at ([world]-40.7, 67.0, 48.7)
-[04:41:53] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:41:53] [Server thread/INFO]: Player5 left the game
-[04:42:15] [User Authenticator #46/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:42:15] [Server thread/INFO]: Player5 joined the game
-[04:42:15] [Server thread/INFO]: Player5[/127.55.68.109:60241] logged in with entity id 11275 at ([world]-38.3, 67.0, 47.954371795405926)
-[04:43:08] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:43:08] [Server thread/INFO]: Player5 left the game
-[04:43:31] [User Authenticator #47/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:43:32] [Server thread/INFO]: Player5 joined the game
-[04:43:32] [Server thread/INFO]: Player5[/127.96.94.146:53941] logged in with entity id 11360 at ([world]-40.7, 67.0, 46.72866519639685)
-[04:44:25] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:44:25] [Server thread/INFO]: Player5 left the game
-[04:44:43] [User Authenticator #48/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:44:44] [Server thread/INFO]: Player5 joined the game
-[04:44:44] [Server thread/INFO]: Player5[/127.117.0.165:48783] logged in with entity id 11455 at ([world]-40.7, 67.0, 43.58424142630821)
-[04:45:36] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:45:36] [Server thread/INFO]: Player5 left the game
-[04:45:52] [User Authenticator #49/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:45:52] [Server thread/INFO]: Player5 joined the game
-[04:45:52] [Server thread/INFO]: Player5[/127.202.57.57:52733] logged in with entity id 11547 at ([world]-38.3, 67.0, 45.975508974851614)
-[04:46:46] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:46:46] [Server thread/INFO]: Player5 left the game
-[04:47:10] [User Authenticator #50/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:47:11] [Server thread/INFO]: Player5 joined the game
-[04:47:11] [Server thread/INFO]: Player5[/127.27.97.102:34741] logged in with entity id 11631 at ([world]-40.7, 67.0, 48.7)
-[04:48:04] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:48:04] [Server thread/INFO]: Player5 left the game
-[04:48:21] [User Authenticator #51/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:48:21] [Server thread/INFO]: Player5 joined the game
-[04:48:21] [Server thread/INFO]: Player5[/127.109.214.148:49295] logged in with entity id 11722 at ([world]-38.3, 67.0, 48.7)
-[04:49:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:49:14] [Server thread/INFO]: Player5 left the game
-[04:49:34] [User Authenticator #52/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:49:34] [Server thread/INFO]: Player5 joined the game
-[04:49:34] [Server thread/INFO]: Player5[/127.250.53.200:60489] logged in with entity id 11813 at ([world]-38.3, 67.0, 46.476900651489956)
-[04:50:27] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:50:27] [Server thread/INFO]: Player5 left the game
-[04:50:50] [User Authenticator #53/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:50:51] [Server thread/INFO]: Player5 joined the game
-[04:50:51] [Server thread/INFO]: Player5[/127.69.26.89:50025] logged in with entity id 11901 at ([world]-40.7, 67.0, 43.3)
-[04:51:43] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:51:43] [Server thread/INFO]: Player5 left the game
-[04:52:02] [User Authenticator #54/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:52:02] [Server thread/INFO]: Player5 joined the game
-[04:52:02] [Server thread/INFO]: Player5[/127.176.88.57:53505] logged in with entity id 11986 at ([world]-38.3, 67.0, 44.3)
-[04:52:56] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:52:56] [Server thread/INFO]: Player5 left the game
-[04:53:16] [User Authenticator #55/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:53:17] [Server thread/INFO]: Player5 joined the game
-[04:53:17] [Server thread/INFO]: Player5[/127.30.10.106:50847] logged in with entity id 12072 at ([world]-40.7, 67.0, 43.3)
-[04:54:09] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:54:09] [Server thread/INFO]: Player5 left the game
-[04:54:30] [User Authenticator #56/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:54:31] [Server thread/INFO]: Player5 joined the game
-[04:54:31] [Server thread/INFO]: Player5[/127.19.147.234:56651] logged in with entity id 12164 at ([world]-39.27379612051985, 67.0, 47.61264015703985)
-[04:55:23] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:55:23] [Server thread/INFO]: Player5 left the game
-[04:55:47] [User Authenticator #57/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:55:47] [Server thread/INFO]: Player5 joined the game
-[04:55:47] [Server thread/INFO]: Player5[/127.93.164.24:43731] logged in with entity id 12251 at ([world]-38.3, 67.0, 47.2772921172132)
-[04:56:40] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:56:40] [Server thread/INFO]: Player5 left the game
-[04:57:04] [User Authenticator #58/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:57:05] [Server thread/INFO]: Player5 joined the game
-[04:57:05] [Server thread/INFO]: Player5[/127.120.3.203:49241] logged in with entity id 12338 at ([world]-38.3, 67.0, 44.3)
-[04:57:58] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:57:58] [Server thread/INFO]: Player5 left the game
-[04:58:17] [User Authenticator #59/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:58:17] [Server thread/INFO]: Player5 joined the game
-[04:58:17] [Server thread/INFO]: Player5[/127.31.62.10:55215] logged in with entity id 12435 at ([world]-38.3, 67.0, 48.7)
-[04:59:11] [Server thread/INFO]: Player5 lost connection: Disconnected
-[04:59:11] [Server thread/INFO]: Player5 left the game
-[04:59:34] [User Authenticator #60/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[04:59:35] [Server thread/INFO]: Player5 joined the game
-[04:59:35] [Server thread/INFO]: Player5[/127.11.168.194:48553] logged in with entity id 12531 at ([world]-38.3, 67.0, 48.7)
-[05:00:27] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:00:27] [Server thread/INFO]: Player5 left the game
-[05:00:50] [User Authenticator #61/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:00:51] [Server thread/INFO]: Player5 joined the game
-[05:00:51] [Server thread/INFO]: Player5[/127.64.90.68:47917] logged in with entity id 12618 at ([world]-40.7, 67.0, 48.7)
-[05:01:44] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:01:44] [Server thread/INFO]: Player5 left the game
-[05:02:06] [User Authenticator #62/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:02:06] [Server thread/INFO]: Player5 joined the game
-[05:02:06] [Server thread/INFO]: Player5[/127.107.190.180:41185] logged in with entity id 12718 at ([world]-39.744880495782006, 67.0, 48.7)
-[05:02:59] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:02:59] [Server thread/INFO]: Player5 left the game
-[05:03:23] [User Authenticator #63/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:03:24] [Server thread/INFO]: Player5 joined the game
-[05:03:24] [Server thread/INFO]: Player5[/127.203.45.181:37011] logged in with entity id 12799 at ([world]-38.3, 67.0, 48.7)
-[05:04:17] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:04:17] [Server thread/INFO]: Player5 left the game
-[05:04:41] [User Authenticator #64/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:04:42] [Server thread/INFO]: Player5 joined the game
-[05:04:42] [Server thread/INFO]: Player5[/127.224.221.14:54321] logged in with entity id 12885 at ([world]-40.7, 66.0, 45.3)
-[05:05:34] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:05:34] [Server thread/INFO]: Player5 left the game
-[05:05:56] [User Authenticator #65/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:05:57] [Server thread/INFO]: Player5 joined the game
-[05:05:57] [Server thread/INFO]: Player5[/127.48.93.117:51183] logged in with entity id 12983 at ([world]-40.7, 66.0, 45.7)
-[05:06:50] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:06:50] [Server thread/INFO]: Player5 left the game
-[05:07:10] [User Authenticator #66/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:07:11] [Server thread/INFO]: Player5 joined the game
-[05:07:11] [Server thread/INFO]: Player5[/127.208.54.251:48339] logged in with entity id 13069 at ([world]-40.3, 66.0, 45.7)
-[05:08:03] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:08:03] [Server thread/INFO]: Player5 left the game
-[05:08:29] [User Authenticator #67/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:08:30] [Server thread/INFO]: Player5 joined the game
-[05:08:30] [Server thread/INFO]: Player5[/127.36.206.111:34893] logged in with entity id 13175 at ([world]-38.44022382955833, 67.0, 48.7)
-[05:09:23] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:09:23] [Server thread/INFO]: Player5 left the game
-[05:09:46] [User Authenticator #68/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:09:47] [Server thread/INFO]: Player5 joined the game
-[05:09:47] [Server thread/INFO]: Player5[/127.218.227.197:44427] logged in with entity id 13272 at ([world]-38.83217986338758, 67.0, 44.578280676000226)
-[05:10:40] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:10:40] [Server thread/INFO]: Player5 left the game
-[05:11:00] [User Authenticator #69/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:11:01] [Server thread/INFO]: Player5 joined the game
-[05:11:01] [Server thread/INFO]: Player5[/127.233.77.56:38001] logged in with entity id 13366 at ([world]-40.3, 66.0, 45.7)
-[05:11:54] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:11:54] [Server thread/INFO]: Player5 left the game
-[05:12:13] [User Authenticator #70/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:12:13] [Server thread/INFO]: Player5 joined the game
-[05:12:13] [Server thread/INFO]: Player5[/127.139.91.170:47723] logged in with entity id 13462 at ([world]-38.3, 67.0, 45.31981570785935)
-[05:13:07] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:13:07] [Server thread/INFO]: Player5 left the game
-[05:13:30] [User Authenticator #71/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:13:31] [Server thread/INFO]: Player5 joined the game
-[05:13:31] [Server thread/INFO]: Player5[/127.41.65.42:42495] logged in with entity id 13558 at ([world]-39.3, 66.0, 44.7)
-[05:14:24] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:14:24] [Server thread/INFO]: Player5 left the game
-[05:14:43] [User Authenticator #72/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:14:43] [Server thread/INFO]: Player5 joined the game
-[05:14:43] [Server thread/INFO]: Player5[/127.55.209.146:37653] logged in with entity id 13646 at ([world]-39.3, 66.0, 44.3)
-[05:15:37] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:15:37] [Server thread/INFO]: Player5 left the game
-[05:16:01] [User Authenticator #73/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:16:01] [Server thread/INFO]: Player5 joined the game
-[05:16:01] [Server thread/INFO]: Player5[/127.37.159.241:57851] logged in with entity id 13743 at ([world]-40.7, 67.0, 43.3)
-[05:16:54] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:16:54] [Server thread/INFO]: Player5 left the game
-[05:17:30] [User Authenticator #74/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:17:31] [Server thread/INFO]: Player5 joined the game
-[05:17:31] [Server thread/INFO]: Player5[/127.60.208.248:60851] logged in with entity id 13828 at ([world]-40.7, 67.0, 43.3)
-[05:18:24] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:18:24] [Server thread/INFO]: Player5 left the game
-[05:18:46] [User Authenticator #75/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:18:47] [Server thread/INFO]: Player5 joined the game
-[05:18:47] [Server thread/INFO]: Player5[/127.174.176.199:39679] logged in with entity id 13926 at ([world]-38.3, 67.0, 47.512145008318925)
-[05:19:40] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:19:40] [Server thread/INFO]: Player5 left the game
-[05:20:01] [User Authenticator #76/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:20:02] [Server thread/INFO]: Player5 joined the game
-[05:20:02] [Server thread/INFO]: Player5[/127.173.73.173:55361] logged in with entity id 14014 at ([world]-40.7, 67.0, 46.890168037544235)
-[05:20:55] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:20:55] [Server thread/INFO]: Player5 left the game
-[05:21:20] [User Authenticator #77/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:21:21] [Server thread/INFO]: Player5 joined the game
-[05:21:21] [Server thread/INFO]: Player5[/127.111.145.0:36269] logged in with entity id 14109 at ([world]-40.3, 66.0, 45.7)
-[05:22:13] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:22:13] [Server thread/INFO]: Player5 left the game
-[05:22:33] [User Authenticator #78/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:22:33] [Server thread/INFO]: Player5 joined the game
-[05:22:33] [Server thread/INFO]: Player5[/127.94.71.165:49643] logged in with entity id 14203 at ([world]-40.68004224373205, 66.0, 45.3)
-[05:23:26] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:23:26] [Server thread/INFO]: Player5 left the game
-[05:23:49] [User Authenticator #79/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:23:50] [Server thread/INFO]: Player5 joined the game
-[05:23:50] [Server thread/INFO]: Player5[/127.127.81.102:50757] logged in with entity id 14294 at ([world]-38.3, 67.0, 45.31613079511754)
-[05:24:42] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:24:42] [Server thread/INFO]: Player5 left the game
-[05:25:07] [User Authenticator #80/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:25:08] [Server thread/INFO]: Player5 joined the game
-[05:25:08] [Server thread/INFO]: Player5[/127.249.91.213:37293] logged in with entity id 14380 at ([world]-38.3, 67.0, 46.649720027011305)
-[05:26:00] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:26:00] [Server thread/INFO]: Player5 left the game
-[05:26:22] [User Authenticator #81/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:26:23] [Server thread/INFO]: Player5 joined the game
-[05:26:23] [Server thread/INFO]: Player5[/127.114.135.45:35487] logged in with entity id 14464 at ([world]-39.3, 66.0, 44.3)
-[05:27:15] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:27:15] [Server thread/INFO]: Player5 left the game
-[05:27:39] [User Authenticator #82/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:27:40] [Server thread/INFO]: Player5 joined the game
-[05:27:40] [Server thread/INFO]: Player5[/127.250.247.9:45695] logged in with entity id 14555 at ([world]-40.7, 67.0, 46.66616670195524)
-[05:28:32] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:28:32] [Server thread/INFO]: Player5 left the game
-[05:28:48] [User Authenticator #83/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:28:49] [Server thread/INFO]: Player5 joined the game
-[05:28:49] [Server thread/INFO]: Player5[/127.61.213.39:50199] logged in with entity id 14647 at ([world]-40.7, 67.0, 46.65887260804375)
-[05:29:42] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:29:42] [Server thread/INFO]: Player5 left the game
-[05:30:05] [User Authenticator #84/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:30:06] [Server thread/INFO]: Player5 joined the game
-[05:30:06] [Server thread/INFO]: Player5[/127.225.29.176:51443] logged in with entity id 14738 at ([world]-40.7, 66.0, 45.3)
-[05:30:59] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:30:59] [Server thread/INFO]: Player5 left the game
-[05:31:19] [User Authenticator #85/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:31:19] [Server thread/INFO]: Player5 joined the game
-[05:31:19] [Server thread/INFO]: Player5[/127.46.249.232:55267] logged in with entity id 14829 at ([world]-40.7, 67.0, 46.88198188602904)
-[05:32:13] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:32:13] [Server thread/INFO]: Player5 left the game
-[05:32:35] [User Authenticator #86/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:32:35] [Server thread/INFO]: Player5 joined the game
-[05:32:35] [Server thread/INFO]: Player5[/127.89.92.65:56185] logged in with entity id 14934 at ([world]-38.3, 67.0, 48.7)
-[05:33:29] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:33:29] [Server thread/INFO]: Player5 left the game
-[05:33:52] [User Authenticator #87/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:33:53] [Server thread/INFO]: Player5 joined the game
-[05:33:53] [Server thread/INFO]: Player5[/127.114.235.123:48423] logged in with entity id 15031 at ([world]-38.3, 67.0, 46.55458571641344)
-[05:34:46] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:34:46] [Server thread/INFO]: Player5 left the game
-[05:35:05] [User Authenticator #88/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:35:05] [Server thread/INFO]: Player5 joined the game
-[05:35:05] [Server thread/INFO]: Player5[/127.145.213.222:57419] logged in with entity id 15124 at ([world]-38.3, 67.0, 46.054789428932416)
-[05:35:58] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:35:58] [Server thread/INFO]: Player5 left the game
-[05:36:21] [User Authenticator #89/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:36:22] [Server thread/INFO]: Player5 joined the game
-[05:36:22] [Server thread/INFO]: Player5[/127.70.109.75:42603] logged in with entity id 15220 at ([world]-38.3, 67.0, 48.7)
-[05:37:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:37:14] [Server thread/INFO]: Player5 left the game
-[05:37:39] [User Authenticator #90/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:37:40] [Server thread/INFO]: Player5 joined the game
-[05:37:40] [Server thread/INFO]: Player5[/127.133.66.235:57437] logged in with entity id 15322 at ([world]-40.7, 67.0, 45.863540233600986)
-[05:38:33] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:38:33] [Server thread/INFO]: Player5 left the game
-[05:38:54] [User Authenticator #91/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:38:55] [Server thread/INFO]: Player5 joined the game
-[05:38:55] [Server thread/INFO]: Player5[/127.60.208.248:36163] logged in with entity id 15406 at ([world]-40.3, 66.0, 45.7)
-[05:39:48] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:39:48] [Server thread/INFO]: Player5 left the game
-[05:40:08] [User Authenticator #92/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:40:09] [Server thread/INFO]: Player5 joined the game
-[05:40:09] [Server thread/INFO]: Player5[/127.209.116.240:51561] logged in with entity id 15491 at ([world]-38.3, 67.0, 47.35172064303705)
-[05:41:02] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:41:02] [Server thread/INFO]: Player5 left the game
-[05:41:25] [User Authenticator #93/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:41:26] [Server thread/INFO]: Player5 joined the game
-[05:41:26] [Server thread/INFO]: Player5[/127.194.88.184:57471] logged in with entity id 15579 at ([world]-38.3, 67.0, 48.7)
-[05:42:18] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:42:18] [Server thread/INFO]: Player5 left the game
-[05:42:48] [User Authenticator #94/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:42:49] [Server thread/INFO]: Player5 joined the game
-[05:42:49] [Server thread/INFO]: Player5[/127.138.73.223:36703] logged in with entity id 15679 at ([world]-40.7, 66.0, 45.3)
-[05:43:42] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:43:42] [Server thread/INFO]: Player5 left the game
-[05:44:05] [User Authenticator #95/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:44:05] [Server thread/INFO]: Player5 joined the game
-[05:44:05] [Server thread/INFO]: Player5[/127.27.62.214:53855] logged in with entity id 15769 at ([world]-40.7, 67.0, 47.76245947711897)
-[05:44:58] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:44:58] [Server thread/INFO]: Player5 left the game
-[05:45:15] [User Authenticator #96/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:45:16] [Server thread/INFO]: Player5 joined the game
-[05:45:16] [Server thread/INFO]: Player5[/127.51.127.24:33521] logged in with entity id 15860 at ([world]-40.7, 66.0, 45.43373906545163)
-[05:46:09] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:46:09] [Server thread/INFO]: Player5 left the game
-[05:46:30] [User Authenticator #97/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:46:31] [Server thread/INFO]: Player5 joined the game
-[05:46:31] [Server thread/INFO]: Player5[/127.246.11.67:36471] logged in with entity id 15955 at ([world]-40.7, 66.0, 45.7)
-[05:47:24] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:47:24] [Server thread/INFO]: Player5 left the game
-[05:47:53] [User Authenticator #98/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:47:53] [Server thread/INFO]: Player5 joined the game
-[05:47:53] [Server thread/INFO]: Player5[/127.73.240.203:35925] logged in with entity id 16040 at ([world]-38.3, 67.0, 46.41100791107676)
-[05:48:46] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:48:46] [Server thread/INFO]: Player5 left the game
-[05:49:13] [User Authenticator #99/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:49:14] [Server thread/INFO]: Player5 joined the game
-[05:49:14] [Server thread/INFO]: Player5[/127.217.238.204:58395] logged in with entity id 16133 at ([world]-38.3, 67.0, 48.66931137696445)
-[05:50:07] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:50:07] [Server thread/INFO]: Player5 left the game
-[05:50:23] [User Authenticator #100/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:50:24] [Server thread/INFO]: Player5 joined the game
-[05:50:24] [Server thread/INFO]: Player5[/127.90.30.34:45287] logged in with entity id 16217 at ([world]-40.6579292121336, 67.0, 47.65483755740878)
-[05:51:17] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:51:17] [Server thread/INFO]: Player5 left the game
-[05:51:35] [User Authenticator #101/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:51:35] [Server thread/INFO]: Player5 joined the game
-[05:51:35] [Server thread/INFO]: Player5[/127.131.159.132:44399] logged in with entity id 16311 at ([world]-38.47975452949126, 67.0, 45.00728741276473)
-[05:52:29] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:52:29] [Server thread/INFO]: Player5 left the game
-[05:52:51] [User Authenticator #102/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:52:52] [Server thread/INFO]: Player5 joined the game
-[05:52:52] [Server thread/INFO]: Player5[/127.62.204.39:57565] logged in with entity id 16400 at ([world]-39.3, 67.0, 43.576439519111275)
-[05:53:44] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:53:44] [Server thread/INFO]: Player5 left the game
-[05:54:01] [User Authenticator #103/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:54:01] [Server thread/INFO]: Player5 joined the game
-[05:54:02] [Server thread/INFO]: Player5[/127.114.132.101:35147] logged in with entity id 16496 at ([world]-40.7, 66.0, 45.7)
-[05:54:55] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:54:55] [Server thread/INFO]: Player5 left the game
-[05:55:24] [User Authenticator #104/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:55:24] [Server thread/INFO]: Player5 joined the game
-[05:55:24] [Server thread/INFO]: Player5[/127.166.231.233:54953] logged in with entity id 16591 at ([world]-40.7, 67.0, 44.28056255493928)
-[05:56:18] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:56:18] [Server thread/INFO]: Player5 left the game
-[05:56:35] [User Authenticator #105/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:56:36] [Server thread/INFO]: Player5 joined the game
-[05:56:36] [Server thread/INFO]: Player5[/127.165.232.30:58843] logged in with entity id 16687 at ([world]-39.7, 66.0, 44.3)
-[05:57:29] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:57:29] [Server thread/INFO]: Player5 left the game
-[05:57:48] [User Authenticator #106/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:57:49] [Server thread/INFO]: Player5 joined the game
-[05:57:49] [Server thread/INFO]: Player5[/127.53.251.64:57131] logged in with entity id 16789 at ([world]-40.7, 67.0, 43.3)
-[05:58:42] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:58:42] [Server thread/INFO]: Player5 left the game
-[05:59:02] [User Authenticator #107/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[05:59:03] [Server thread/INFO]: Player5 joined the game
-[05:59:03] [Server thread/INFO]: Player5[/127.179.114.232:51465] logged in with entity id 16877 at ([world]-40.7, 67.0, 43.3)
-[05:59:55] [Server thread/INFO]: Player5 lost connection: Disconnected
-[05:59:55] [Server thread/INFO]: Player5 left the game
-[06:00:20] [User Authenticator #108/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:00:21] [Server thread/INFO]: Player5 joined the game
-[06:00:21] [Server thread/INFO]: Player5[/127.58.2.210:32811] logged in with entity id 16983 at ([world]-40.3, 66.0, 45.3)
-[06:01:13] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:01:13] [Server thread/INFO]: Player5 left the game
-[06:01:42] [User Authenticator #109/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:01:43] [Server thread/INFO]: Player5 joined the game
-[06:01:43] [Server thread/INFO]: Player5[/127.27.97.102:54877] logged in with entity id 17065 at ([world]-40.7, 66.0, 45.3)
-[06:02:35] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:02:35] [Server thread/INFO]: Player5 left the game
-[06:03:02] [User Authenticator #110/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:03:03] [Server thread/INFO]: Player5 joined the game
-[06:03:03] [Server thread/INFO]: Player5[/127.79.29.25:56637] logged in with entity id 17149 at ([world]-40.7, 67.0, 47.295153643196855)
-[06:03:56] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:03:56] [Server thread/INFO]: Player5 left the game
-[06:04:15] [User Authenticator #111/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:04:16] [Server thread/INFO]: Player5 joined the game
-[06:04:16] [Server thread/INFO]: Player5[/127.93.208.176:46755] logged in with entity id 17240 at ([world]-40.7, 66.0, 45.7)
-[06:05:09] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:05:09] [Server thread/INFO]: Player5 left the game
-[06:05:26] [User Authenticator #112/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:05:26] [Server thread/INFO]: Player5 joined the game
-[06:05:26] [Server thread/INFO]: Player5[/127.93.208.176:43535] logged in with entity id 17325 at ([world]-40.7, 66.0, 45.3)
-[06:06:20] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:06:20] [Server thread/INFO]: Player5 left the game
-[06:06:44] [User Authenticator #113/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:06:45] [Server thread/INFO]: Player5 joined the game
-[06:06:45] [Server thread/INFO]: Player5[/127.48.92.79:35137] logged in with entity id 17417 at ([world]-38.3, 67.0, 45.74066558930618)
-[06:07:37] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:07:37] [Server thread/INFO]: Player5 left the game
-[06:07:59] [User Authenticator #114/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:08:00] [Server thread/INFO]: Player5 joined the game
-[06:08:00] [Server thread/INFO]: Player5[/127.252.168.241:57901] logged in with entity id 17514 at ([world]-38.3, 67.0, 48.7)
-[06:08:53] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:08:53] [Server thread/INFO]: Player5 left the game
-[06:09:16] [User Authenticator #115/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:09:16] [Server thread/INFO]: Player5 joined the game
-[06:09:16] [Server thread/INFO]: Player5[/127.217.53.19:44195] logged in with entity id 17607 at ([world]-40.7, 67.0, 48.7)
-[06:10:10] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:10:10] [Server thread/INFO]: Player5 left the game
-[06:10:34] [User Authenticator #116/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:10:35] [Server thread/INFO]: Player5 joined the game
-[06:10:35] [Server thread/INFO]: Player5[/127.37.95.63:43329] logged in with entity id 17687 at ([world]-40.7, 67.0, 46.96156941971143)
-[06:11:28] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:11:28] [Server thread/INFO]: Player5 left the game
-[06:11:49] [User Authenticator #117/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:11:50] [Server thread/INFO]: Player5 joined the game
-[06:11:50] [Server thread/INFO]: Player5[/127.134.15.170:42387] logged in with entity id 17788 at ([world]-38.3, 67.0, 47.48512963947587)
-[06:12:42] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:12:42] [Server thread/INFO]: Player5 left the game
-[06:13:04] [User Authenticator #118/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:13:04] [Server thread/INFO]: Player5 joined the game
-[06:13:04] [Server thread/INFO]: Player5[/127.81.244.126:49873] logged in with entity id 17881 at ([world]-40.7, 67.0, 45.917881717312085)
-[06:13:57] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:13:57] [Server thread/INFO]: Player5 left the game
-[06:14:21] [User Authenticator #119/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:14:22] [Server thread/INFO]: Player5 joined the game
-[06:14:22] [Server thread/INFO]: Player5[/127.223.39.40:52515] logged in with entity id 17970 at ([world]-38.3, 67.0, 48.399275978904555)
-[06:15:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:15:14] [Server thread/INFO]: Player5 left the game
-[06:15:34] [User Authenticator #120/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:15:35] [Server thread/INFO]: Player5 joined the game
-[06:15:35] [Server thread/INFO]: Player5[/127.105.34.76:38835] logged in with entity id 18063 at ([world]-40.7, 66.0, 45.3)
-[06:16:28] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:16:28] [Server thread/INFO]: Player5 left the game
-[06:16:47] [User Authenticator #121/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:16:48] [Server thread/INFO]: Player5 joined the game
-[06:16:48] [Server thread/INFO]: Player5[/127.29.202.178:41427] logged in with entity id 18161 at ([world]-40.19753803068802, 67.0, 44.41647154894796)
-[06:17:41] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:17:41] [Server thread/INFO]: Player5 left the game
-[06:18:00] [User Authenticator #122/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:18:01] [Server thread/INFO]: Player5 joined the game
-[06:18:01] [Server thread/INFO]: Player5[/127.168.191.105:53317] logged in with entity id 18248 at ([world]-39.3, 66.0, 44.7)
-[06:18:54] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:18:54] [Server thread/INFO]: Player5 left the game
-[06:19:14] [User Authenticator #123/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:19:15] [Server thread/INFO]: Player5 joined the game
-[06:19:15] [Server thread/INFO]: Player5[/127.105.34.76:33913] logged in with entity id 18350 at ([world]-39.7, 66.0, 44.3)
-[06:20:07] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:20:07] [Server thread/INFO]: Player5 left the game
-[06:20:26] [User Authenticator #124/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:20:27] [Server thread/INFO]: Player5 joined the game
-[06:20:27] [Server thread/INFO]: Player5[/127.46.249.232:49685] logged in with entity id 18444 at ([world]-38.3, 67.0, 47.554481236685156)
-[06:21:20] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:21:20] [Server thread/INFO]: Player5 left the game
-[06:21:43] [User Authenticator #125/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:21:43] [Server thread/INFO]: Player5 joined the game
-[06:21:43] [Server thread/INFO]: Player5[/127.11.31.56:60171] logged in with entity id 18535 at ([world]-39.7, 66.0, 44.3)
-[06:22:36] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:22:36] [Server thread/INFO]: Player5 left the game
-[06:23:11] [User Authenticator #126/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:23:11] [Server thread/INFO]: Player5 joined the game
-[06:23:11] [Server thread/INFO]: Player5[/127.130.202.228:52649] logged in with entity id 18624 at ([world]-40.7, 67.0, 43.681966756277596)
-[06:24:04] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:24:04] [Server thread/INFO]: Player5 left the game
-[06:24:31] [User Authenticator #127/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:24:31] [Server thread/INFO]: Player5 joined the game
-[06:24:31] [Server thread/INFO]: Player5[/127.15.238.144:52621] logged in with entity id 18718 at ([world]-40.7, 67.0, 43.3)
-[06:25:24] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:25:24] [Server thread/INFO]: Player5 left the game
-[06:25:45] [User Authenticator #128/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:25:45] [Server thread/INFO]: Player5 joined the game
-[06:25:45] [Server thread/INFO]: Player5[/127.179.167.126:47577] logged in with entity id 18803 at ([world]-40.7, 67.0, 48.56788301343189)
-[06:26:39] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:26:39] [Server thread/INFO]: Player5 left the game
-[06:27:04] [User Authenticator #129/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:27:05] [Server thread/INFO]: Player5 joined the game
-[06:27:05] [Server thread/INFO]: Player5[/127.166.195.81:50677] logged in with entity id 18892 at ([world]-38.30000001192093, 67.0, 48.69999998807907)
-[06:27:57] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:27:57] [Server thread/INFO]: Player5 left the game
-[06:28:21] [User Authenticator #130/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:28:22] [Server thread/INFO]: Player5 joined the game
-[06:28:22] [Server thread/INFO]: Player5[/127.197.224.154:40259] logged in with entity id 18988 at ([world]-38.3, 67.0, 48.7)
-[06:29:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:29:14] [Server thread/INFO]: Player5 left the game
-[06:29:37] [User Authenticator #131/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:29:38] [Server thread/INFO]: Player5 joined the game
-[06:29:38] [Server thread/INFO]: Player5[/127.127.164.129:58889] logged in with entity id 19086 at ([world]-38.3, 67.0, 45.6084743334646)
-[06:30:31] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:30:31] [Server thread/INFO]: Player5 left the game
-[06:30:51] [User Authenticator #132/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:30:52] [Server thread/INFO]: Player5 joined the game
-[06:30:52] [Server thread/INFO]: Player5[/127.241.221.155:58957] logged in with entity id 19179 at ([world]-40.7, 66.0, 45.64398348625851)
-[06:31:45] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:31:45] [Server thread/INFO]: Player5 left the game
-[06:31:59] [User Authenticator #133/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:32:00] [Server thread/INFO]: Player5 joined the game
-[06:32:00] [Server thread/INFO]: Player5[/127.110.76.88:48939] logged in with entity id 19268 at ([world]-40.3, 66.0, 45.3)
-[06:32:53] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:32:53] [Server thread/INFO]: Player5 left the game
-[06:33:14] [User Authenticator #134/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:33:14] [Server thread/INFO]: Player5 joined the game
-[06:33:14] [Server thread/INFO]: Player5[/127.215.114.139:42721] logged in with entity id 19365 at ([world]-40.7, 66.0, 45.7)
-[06:34:07] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:34:07] [Server thread/INFO]: Player5 left the game
-[06:34:29] [User Authenticator #135/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:34:30] [Server thread/INFO]: Player5 joined the game
-[06:34:30] [Server thread/INFO]: Player5[/127.111.149.51:60633] logged in with entity id 19460 at ([world]-40.3, 66.0, 45.3)
-[06:35:23] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:35:23] [Server thread/INFO]: Player5 left the game
-[06:35:44] [User Authenticator #136/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:35:45] [Server thread/INFO]: Player5 joined the game
-[06:35:45] [Server thread/INFO]: Player5[/127.106.181.104:51983] logged in with entity id 19554 at ([world]-40.7, 67.0, 43.3)
-[06:36:37] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:36:37] [Server thread/INFO]: Player5 left the game
-[06:36:58] [User Authenticator #137/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:36:59] [Server thread/INFO]: Player5 joined the game
-[06:36:59] [Server thread/INFO]: Player5[/127.240.183.196:49503] logged in with entity id 19639 at ([world]-39.3, 67.0, 43.3)
-[06:37:52] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:37:52] [Server thread/INFO]: Player5 left the game
-[06:38:13] [User Authenticator #138/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:38:14] [Server thread/INFO]: Player5 joined the game
-[06:38:14] [Server thread/INFO]: Player5[/127.127.68.159:41823] logged in with entity id 19735 at ([world]-38.3, 67.0, 46.150454369002745)
-[06:39:06] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:39:06] [Server thread/INFO]: Player5 left the game
-[06:39:29] [User Authenticator #139/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:39:30] [Server thread/INFO]: Player5 joined the game
-[06:39:30] [Server thread/INFO]: Player5[/127.234.121.221:50269] logged in with entity id 19824 at ([world]-38.93887955530283, 67.0, 44.75093251811444)
-[06:40:22] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:40:22] [Server thread/INFO]: Player5 left the game
-[06:40:45] [User Authenticator #140/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:40:46] [Server thread/INFO]: Player5 joined the game
-[06:40:46] [Server thread/INFO]: Player5[/127.85.94.7:53027] logged in with entity id 19918 at ([world]-40.7, 67.0, 48.7)
-[06:41:39] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:41:39] [Server thread/INFO]: Player5 left the game
-[06:41:59] [User Authenticator #141/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:42:00] [Server thread/INFO]: Player5 joined the game
-[06:42:00] [Server thread/INFO]: Player5[/127.172.162.184:53819] logged in with entity id 20004 at ([world]-38.3, 67.0, 47.601326835766116)
-[06:42:53] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:42:53] [Server thread/INFO]: Player5 left the game
-[06:43:14] [User Authenticator #142/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:43:15] [Server thread/INFO]: Player5 joined the game
-[06:43:15] [Server thread/INFO]: Player5[/127.150.244.144:50679] logged in with entity id 20102 at ([world]-39.7, 66.0, 44.7)
-[06:44:08] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:44:08] [Server thread/INFO]: Player5 left the game
-[06:44:32] [User Authenticator #143/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:44:33] [Server thread/INFO]: Player5 joined the game
-[06:44:33] [Server thread/INFO]: Player5[/127.56.186.177:48223] logged in with entity id 20195 at ([world]-38.3, 67.0, 44.3)
-[06:45:26] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:45:26] [Server thread/INFO]: Player5 left the game
-[06:45:51] [User Authenticator #144/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:45:52] [Server thread/INFO]: Player5 joined the game
-[06:45:52] [Server thread/INFO]: Player5[/127.10.60.105:41121] logged in with entity id 20306 at ([world]-40.7, 67.0, 44.93875615596771)
-[06:46:45] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:46:45] [Server thread/INFO]: Player5 left the game
-[06:47:08] [User Authenticator #145/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:47:09] [Server thread/INFO]: Player5 joined the game
-[06:47:09] [Server thread/INFO]: Player5[/127.216.236.242:51669] logged in with entity id 20387 at ([world]-37.3, 67.0, 44.3)
-[06:48:02] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:48:02] [Server thread/INFO]: Player5 left the game
-[06:48:21] [User Authenticator #146/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:48:21] [Server thread/INFO]: Player5 joined the game
-[06:48:21] [Server thread/INFO]: Player5[/127.50.44.59:47911] logged in with entity id 20481 at ([world]-37.3, 67.0, 44.3)
-[06:49:14] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:49:14] [Server thread/INFO]: Player5 left the game
-[06:49:35] [User Authenticator #147/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:49:35] [Server thread/INFO]: Player5 joined the game
-[06:49:35] [Server thread/INFO]: Player5[/127.100.83.205:55337] logged in with entity id 20576 at ([world]-39.840870710875386, 66.0, 45.7)
-[06:50:29] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:50:29] [Server thread/INFO]: Player5 left the game
-[06:50:50] [User Authenticator #148/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:50:51] [Server thread/INFO]: Player5 joined the game
-[06:50:51] [Server thread/INFO]: Player5[/127.72.147.246:55853] logged in with entity id 20675 at ([world]-40.7, 66.0, 45.7)
-[06:51:43] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:51:43] [Server thread/INFO]: Player5 left the game
-[06:52:06] [User Authenticator #149/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:52:07] [Server thread/INFO]: Player5 joined the game
-[06:52:07] [Server thread/INFO]: Player5[/127.39.238.218:38399] logged in with entity id 20763 at ([world]-41.7, 67.0, 46.7)
-[06:52:59] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:52:59] [Server thread/INFO]: Player5 left the game
-[06:53:23] [User Authenticator #150/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:53:23] [Server thread/INFO]: Player5 joined the game
-[06:53:23] [Server thread/INFO]: Player5[/127.144.206.102:37313] logged in with entity id 20860 at ([world]-41.7, 67.0, 44.702309103917386)
-[06:54:16] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:54:16] [Server thread/INFO]: Player5 left the game
-[06:54:36] [User Authenticator #151/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:54:37] [Server thread/INFO]: Player5 joined the game
-[06:54:37] [Server thread/INFO]: Player5[/127.179.122.48:33379] logged in with entity id 20948 at ([world]-41.7, 67.0, 46.7)
-[06:55:30] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:55:30] [Server thread/INFO]: Player5 left the game
-[06:55:52] [User Authenticator #152/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:55:53] [Server thread/INFO]: Player5 joined the game
-[06:55:53] [Server thread/INFO]: Player5[/127.206.121.153:33801] logged in with entity id 21038 at ([world]-40.51278275314301, 67.0, 43.68319863731283)
-[06:56:46] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:56:46] [Server thread/INFO]: Player5 left the game
-[06:57:06] [User Authenticator #153/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:57:07] [Server thread/INFO]: Player5 joined the game
-[06:57:07] [Server thread/INFO]: Player5[/127.57.20.159:45865] logged in with entity id 21129 at ([world]-40.7, 67.0, 43.3)
-[06:57:59] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:57:59] [Server thread/INFO]: Player5 left the game
-[06:58:17] [User Authenticator #154/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:58:18] [Server thread/INFO]: Player5 joined the game
-[06:58:18] [Server thread/INFO]: Player5[/127.162.203.29:45417] logged in with entity id 21214 at ([world]-41.31294974704001, 67.0, 44.57649025300355)
-[06:59:10] [Server thread/INFO]: Player5 lost connection: Disconnected
-[06:59:10] [Server thread/INFO]: Player5 left the game
-[06:59:33] [User Authenticator #155/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[06:59:34] [Server thread/INFO]: Player5 joined the game
-[06:59:34] [Server thread/INFO]: Player5[/127.177.252.66:57485] logged in with entity id 21307 at ([world]-41.7, 67.0, 45.71261016836474)
-[07:00:26] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:00:26] [Server thread/INFO]: Player5 left the game
-[07:00:54] [User Authenticator #156/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:00:55] [Server thread/INFO]: Player5 joined the game
-[07:00:55] [Server thread/INFO]: Player5[/127.161.254.243:33031] logged in with entity id 21395 at ([world]-38.3, 67.0, 48.79161850644462)
-[07:01:47] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:01:47] [Server thread/INFO]: Player5 left the game
-[07:02:11] [User Authenticator #157/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:02:11] [Server thread/INFO]: Player5 joined the game
-[07:02:11] [Server thread/INFO]: Player5[/127.67.116.217:52375] logged in with entity id 21482 at ([world]-39.3, 66.0, 46.7)
-[07:03:04] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:03:04] [Server thread/INFO]: Player5 left the game
-[07:03:27] [User Authenticator #158/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:03:27] [Server thread/INFO]: Player5 joined the game
-[07:03:27] [Server thread/INFO]: Player5[/127.161.29.16:40645] logged in with entity id 21579 at ([world]-38.3, 67.0, 43.3)
-[07:04:20] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:04:20] [Server thread/INFO]: Player5 left the game
-[07:04:40] [User Authenticator #159/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:04:41] [Server thread/INFO]: Player5 joined the game
-[07:04:41] [Server thread/INFO]: Player5[/127.63.49.206:50453] logged in with entity id 21670 at ([world]-40.7, 66.0, 45.3)
-[07:05:34] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:05:34] [Server thread/INFO]: Player5 left the game
-[07:05:51] [User Authenticator #160/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:05:52] [Server thread/INFO]: Player5 joined the game
-[07:05:52] [Server thread/INFO]: Player5[/127.42.132.151:54793] logged in with entity id 21763 at ([world]-41.7, 67.0, 44.71556148440062)
-[07:06:45] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:06:45] [Server thread/INFO]: Player5 left the game
-[07:07:03] [User Authenticator #161/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:07:04] [Server thread/INFO]: Player5 joined the game
-[07:07:04] [Server thread/INFO]: Player5[/127.95.234.150:42227] logged in with entity id 21853 at ([world]-38.3, 67.0, 48.31559757700867)
-[07:07:57] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:07:57] [Server thread/INFO]: Player5 left the game
-[07:08:18] [User Authenticator #162/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:08:19] [Server thread/INFO]: Player5 joined the game
-[07:08:19] [Server thread/INFO]: Player5[/127.112.71.189:52617] logged in with entity id 21954 at ([world]-41.7, 67.0, 44.336613357908654)
-[07:09:12] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:09:12] [Server thread/INFO]: Player5 left the game
-[07:09:33] [User Authenticator #163/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:09:34] [Server thread/INFO]: Player5 joined the game
-[07:09:34] [Server thread/INFO]: Player5[/127.108.122.43:57411] logged in with entity id 22059 at ([world]-39.7, 66.0, 46.7)
-[07:10:26] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:10:26] [Server thread/INFO]: Player5 left the game
-[07:10:48] [User Authenticator #164/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:10:49] [Server thread/INFO]: Player5 joined the game
-[07:10:49] [Server thread/INFO]: Player5[/127.235.93.191:55505] logged in with entity id 22153 at ([world]-39.7, 66.0, 46.7)
-[07:11:42] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:11:42] [Server thread/INFO]: Player5 left the game
-[07:12:06] [User Authenticator #165/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:12:07] [Server thread/INFO]: Player5 joined the game
-[07:12:07] [Server thread/INFO]: Player5[/127.39.129.144:54953] logged in with entity id 22264 at ([world]-37.3, 67.0, 45.207678974348944)
-[07:12:59] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:12:59] [Server thread/INFO]: Player5 left the game
-[07:13:23] [User Authenticator #166/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:13:24] [Server thread/INFO]: Player5 joined the game
-[07:13:24] [Server thread/INFO]: Player5[/127.44.113.238:56927] logged in with entity id 22357 at ([world]-39.7, 66.0, 46.7)
-[07:14:17] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:14:17] [Server thread/INFO]: Player5 left the game
-[07:14:41] [User Authenticator #167/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:14:42] [Server thread/INFO]: Player5 joined the game
-[07:14:42] [Server thread/INFO]: Player5[/127.161.174.113:56461] logged in with entity id 22455 at ([world]-41.7, 67.0, 46.7)
-[07:15:35] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:15:35] [Server thread/INFO]: Player5 left the game
-[07:16:00] [User Authenticator #168/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:16:01] [Server thread/INFO]: Player5 joined the game
-[07:16:01] [Server thread/INFO]: Player5[/127.238.3.241:57557] logged in with entity id 22557 at ([world]-41.34975960925304, 67.0, 44.3)
-[07:16:52] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:16:52] [Server thread/INFO]: Player5 left the game
-[07:17:13] [User Authenticator #169/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:17:13] [Server thread/INFO]: Player5 joined the game
-[07:17:13] [Server thread/INFO]: Player5[/127.64.116.136:40319] logged in with entity id 22660 at ([world]-40.7, 67.0, 43.3)
-[07:18:06] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:18:06] [Server thread/INFO]: Player5 left the game
-[07:18:27] [User Authenticator #170/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:18:28] [Server thread/INFO]: Player5 joined the game
-[07:18:28] [Server thread/INFO]: Player5[/127.78.131.45:60625] logged in with entity id 22764 at ([world]-40.7, 67.0, 43.3)
-[07:19:21] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:19:21] [Server thread/INFO]: Player5 left the game
-[07:19:40] [User Authenticator #171/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:19:41] [Server thread/INFO]: Player5 joined the game
-[07:19:41] [Server thread/INFO]: Player5[/127.132.158.101:48051] logged in with entity id 22844 at ([world]-37.3, 67.0, 44.3)
-[07:20:34] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:20:34] [Server thread/INFO]: Player5 left the game
-[07:20:52] [User Authenticator #172/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:20:53] [Server thread/INFO]: Player5 joined the game
-[07:20:53] [Server thread/INFO]: Player5[/127.178.24.23:33115] logged in with entity id 22933 at ([world]-40.06744283928123, 66.0, 45.3)
-[07:21:46] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:21:46] [Server thread/INFO]: Player5 left the game
-[07:22:03] [User Authenticator #173/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:22:04] [Server thread/INFO]: Player5 joined the game
-[07:22:04] [Server thread/INFO]: Player5[/127.60.25.30:54319] logged in with entity id 23033 at ([world]-37.3, 67.0, 44.3)
-[07:22:57] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:22:57] [Server thread/INFO]: Player5 left the game
-[07:23:24] [User Authenticator #174/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:23:25] [Server thread/INFO]: Player5 joined the game
-[07:23:25] [Server thread/INFO]: Player5[/127.26.20.234:43733] logged in with entity id 23141 at ([world]-38.3, 67.0, 43.32052366103555)
-[07:24:17] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:24:17] [Server thread/INFO]: Player5 left the game
-[07:24:43] [User Authenticator #175/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:24:43] [Server thread/INFO]: Player5 joined the game
-[07:24:43] [Server thread/INFO]: Player5[/127.70.110.208:58987] logged in with entity id 23234 at ([world]-37.549499589888946, 67.0, 44.82051526610128)
-[07:25:36] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:25:36] [Server thread/INFO]: Player5 left the game
-[07:26:02] [User Authenticator #176/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:26:03] [Server thread/INFO]: Player5 joined the game
-[07:26:03] [Server thread/INFO]: Player5[/127.79.189.117:46229] logged in with entity id 23310 at ([world]-39.7, 66.0, 46.7)
-[07:26:55] [Server thread/INFO]: Player5 lost connection: Disconnected
-[07:26:55] [Server thread/INFO]: Player5 left the game
-[07:27:23] [User Authenticator #177/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
-[07:27:23] [Server thread/INFO]: Player5 joined the game
-[07:27:23] [Server thread/INFO]: Player5[/127.175.125.210:45835] logged in with entity id 23396 at ([world]-38.063758441955244, 67.0, 47.7)
-[07:27:49] [Server thread/INFO]: Stopping server
-[07:27:49] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
-[07:27:49] [Server thread/INFO]: Saving players
-[07:27:49] [Server thread/INFO]: Player5 lost connection: Server closed
-[07:27:49] [Server thread/INFO]: Player5 left the game
-[07:27:49] [Server thread/INFO]: Saving worlds
-[07:27:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:27:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:27:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:27:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Saved 61 block chunks, 141 entity chunks, 0 poi chunks in world 'world' in 0.14s
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:27:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:27:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:27:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:27:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:27:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:27:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:27:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:27:50] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:27:50] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:27:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:27:50] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[07:29:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:29:40] [ServerMain/INFO]: Loaded 1373 recipes
+[07:29:40] [ServerMain/INFO]: Loaded 1484 advancements
+[07:29:40] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[07:29:40] [Server thread/INFO]: Loading properties
+[07:29:40] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[07:29:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:29:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:29:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:29:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:29:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:29:42] [Server thread/INFO]: Default game type: SURVIVAL
+[07:29:42] [Server thread/INFO]: Generating keypair
+[07:29:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:29:42] [Server thread/INFO]: Using epoll channel type
+[07:29:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:29:42] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:29:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
+[07:29:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:29:42] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
+[07:29:43] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[07:29:43] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[07:29:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:29:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:29:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:29:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:29:43] [Server thread/INFO]: Preparing level "world"
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[07:29:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[07:29:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:29:44] [Server thread/INFO]: Preparing spawn area: 0%
+[07:29:45] [Server thread/INFO]: Preparing spawn area: 0%
+[07:29:45] [Server thread/INFO]: Time elapsed: 989 ms
+[07:29:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:29:45] [Server thread/INFO]: Preparing spawn area: 0%
+[07:29:45] [Server thread/INFO]: Time elapsed: 195 ms
+[07:29:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:29:45] [Server thread/INFO]: Preparing spawn area: 0%
+[07:29:45] [Server thread/INFO]: Time elapsed: 157 ms
+[07:29:46] [Server thread/INFO]: [spark] Starting background profiler...
+[07:29:46] [Server thread/INFO]: Done preparing level "world" (2.821s)
+[07:29:46] [Server thread/INFO]: Running delayed init tasks
+[07:29:46] [Server thread/INFO]: Done (16.698s)! For help, type "help"
+[07:29:47] [User Authenticator #0/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:29:48] [Server thread/INFO]: Player5 joined the game
+[07:29:48] [Server thread/INFO]: Player5[/127.209.99.106:55381] logged in with entity id 104 at ([world]-40.29988837874332, 67.0, 48.26450172943004)
+[07:30:39] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:30:39] [Server thread/INFO]: Player5 left the game
+[07:31:06] [User Authenticator #1/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:31:07] [Server thread/INFO]: Player5 joined the game
+[07:31:07] [Server thread/INFO]: Player5[/127.168.121.37:47313] logged in with entity id 303 at ([world]-37.3, 67.0, 47.33719537298064)
+[07:32:00] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:32:00] [Server thread/INFO]: Player5 left the game
+[07:32:20] [User Authenticator #2/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:32:20] [Server thread/INFO]: Player5 joined the game
+[07:32:20] [Server thread/INFO]: Player5[/127.198.4.69:50987] logged in with entity id 390 at ([world]-40.32247875069816, 67.0, 48.7)
+[07:33:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:33:13] [Server thread/INFO]: Player5 left the game
+[07:33:33] [User Authenticator #3/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:33:33] [Server thread/INFO]: Player5 joined the game
+[07:33:33] [Server thread/INFO]: Player5[/127.227.142.133:51483] logged in with entity id 491 at ([world]-41.7, 67.0, 49.3)
+[07:34:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:34:26] [Server thread/INFO]: Player5 left the game
+[07:34:46] [User Authenticator #4/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:34:47] [Server thread/INFO]: Player5 joined the game
+[07:34:47] [Server thread/INFO]: Player5[/127.185.91.157:44709] logged in with entity id 594 at ([world]-41.7, 67.0, 49.7)
+[07:35:39] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:35:39] [Server thread/INFO]: Player5 left the game
+[07:36:04] [User Authenticator #5/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:36:04] [Server thread/INFO]: Player5 joined the game
+[07:36:04] [Server thread/INFO]: Player5[/127.172.3.153:37899] logged in with entity id 684 at ([world]-41.7, 67.0, 49.7)
+[07:36:57] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:36:57] [Server thread/INFO]: Player5 left the game
+[07:37:21] [User Authenticator #6/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:37:21] [Server thread/INFO]: Player5 joined the game
+[07:37:21] [Server thread/INFO]: Player5[/127.98.42.213:36565] logged in with entity id 783 at ([world]-41.7, 67.0, 49.3)
+[07:38:14] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:38:14] [Server thread/INFO]: Player5 left the game
+[07:38:33] [User Authenticator #7/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:38:34] [Server thread/INFO]: Player5 joined the game
+[07:38:34] [Server thread/INFO]: Player5[/127.30.114.163:35501] logged in with entity id 875 at ([world]-39.998970835691, 67.0, 47.78411440952034)
+[07:39:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:39:26] [Server thread/INFO]: Player5 left the game
+[07:39:44] [User Authenticator #8/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:39:45] [Server thread/INFO]: Player5 joined the game
+[07:39:45] [Server thread/INFO]: Player5[/127.48.240.167:52555] logged in with entity id 981 at ([world]-38.236729918286436, 67.0, 47.7)
+[07:40:38] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:40:38] [Server thread/INFO]: Player5 left the game
+[07:41:00] [User Authenticator #9/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:41:01] [Server thread/INFO]: Player5 joined the game
+[07:41:01] [Server thread/INFO]: Player5[/127.243.184.45:40969] logged in with entity id 1074 at ([world]-37.3, 67.0, 44.3)
+[07:41:53] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:41:53] [Server thread/INFO]: Player5 left the game
+[07:42:15] [User Authenticator #10/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:42:15] [Server thread/INFO]: Player5 joined the game
+[07:42:15] [Server thread/INFO]: Player5[/127.106.182.2:35947] logged in with entity id 1167 at ([world]-38.3, 67.0, 44.389663413178425)
+[07:43:09] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:43:09] [Server thread/INFO]: Player5 left the game
+[07:43:28] [User Authenticator #11/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:43:28] [Server thread/INFO]: Player5 joined the game
+[07:43:28] [Server thread/INFO]: Player5[/127.107.195.86:44851] logged in with entity id 1248 at ([world]-37.3, 67.0, 47.7)
+[07:44:21] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:44:21] [Server thread/INFO]: Player5 left the game
+[07:44:40] [User Authenticator #12/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:44:41] [Server thread/INFO]: Player5 joined the game
+[07:44:41] [Server thread/INFO]: Player5[/127.77.193.211:54257] logged in with entity id 1347 at ([world]-37.3, 67.0, 47.7)
+[07:45:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:45:33] [Server thread/INFO]: Player5 left the game
+[07:45:54] [User Authenticator #13/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:45:55] [Server thread/INFO]: Player5 joined the game
+[07:45:55] [Server thread/INFO]: Player5[/127.44.139.18:58363] logged in with entity id 1447 at ([world]-41.13140264477617, 67.0, 45.08234597073408)
+[07:46:48] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:46:48] [Server thread/INFO]: Player5 left the game
+[07:47:11] [User Authenticator #14/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:47:12] [Server thread/INFO]: Player5 joined the game
+[07:47:12] [Server thread/INFO]: Player5[/127.237.193.242:41935] logged in with entity id 1537 at ([world]-41.7, 67.0, 46.44486085810504)
+[07:48:05] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:48:05] [Server thread/INFO]: Player5 left the game
+[07:48:27] [User Authenticator #15/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:48:28] [Server thread/INFO]: Player5 joined the game
+[07:48:28] [Server thread/INFO]: Player5[/127.196.58.41:42971] logged in with entity id 1649 at ([world]-38.3, 67.0, 49.60985220240082)
+[07:49:21] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:49:21] [Server thread/INFO]: Player5 left the game
+[07:49:47] [User Authenticator #16/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:49:48] [Server thread/INFO]: Player5 joined the game
+[07:49:48] [Server thread/INFO]: Player5[/127.250.88.163:54371] logged in with entity id 1759 at ([world]-40.57278619223751, 66.0, 45.3)
+[07:50:40] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:50:40] [Server thread/INFO]: Player5 left the game
+[07:51:01] [User Authenticator #17/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:51:01] [Server thread/INFO]: Player5 joined the game
+[07:51:01] [Server thread/INFO]: Player5[/127.76.99.220:60769] logged in with entity id 1861 at ([world]-38.3, 67.0, 48.64869263934263)
+[07:51:54] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:51:54] [Server thread/INFO]: Player5 left the game
+[07:52:14] [User Authenticator #18/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:52:14] [Server thread/INFO]: Player5 joined the game
+[07:52:14] [Server thread/INFO]: Player5[/127.21.253.44:39397] logged in with entity id 1954 at ([world]-38.3, 67.0, 49.7)
+[07:53:08] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:53:08] [Server thread/INFO]: Player5 left the game
+[07:53:30] [User Authenticator #19/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:53:31] [Server thread/INFO]: Player5 joined the game
+[07:53:31] [Server thread/INFO]: Player5[/127.219.134.20:43921] logged in with entity id 2037 at ([world]-39.70741459786531, 67.0, 48.22068754089804)
+[07:54:24] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:54:24] [Server thread/INFO]: Player5 left the game
+[07:54:42] [User Authenticator #20/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:54:43] [Server thread/INFO]: Player5 joined the game
+[07:54:43] [Server thread/INFO]: Player5[/127.24.0.45:59497] logged in with entity id 2136 at ([world]-39.3378785333352, 67.0, 48.06443309177048)
+[07:55:36] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:55:36] [Server thread/INFO]: Player5 left the game
+[07:55:56] [User Authenticator #21/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:55:57] [Server thread/INFO]: Player5 joined the game
+[07:55:57] [Server thread/INFO]: Player5[/127.79.236.30:49171] logged in with entity id 2221 at ([world]-41.7, 67.0, 49.3)
+[07:56:49] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:56:49] [Server thread/INFO]: Player5 left the game
+[07:57:07] [User Authenticator #22/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:57:08] [Server thread/INFO]: Player5 joined the game
+[07:57:08] [Server thread/INFO]: Player5[/127.177.218.184:35387] logged in with entity id 2312 at ([world]-40.3, 67.0, 49.7)
+[07:58:00] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:58:00] [Server thread/INFO]: Player5 left the game
+[07:58:18] [User Authenticator #23/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:58:19] [Server thread/INFO]: Player5 joined the game
+[07:58:19] [Server thread/INFO]: Player5[/127.1.48.220:45135] logged in with entity id 2401 at ([world]-38.3, 67.0, 48.64520863286643)
+[07:59:12] [Server thread/INFO]: Player5 lost connection: Disconnected
+[07:59:12] [Server thread/INFO]: Player5 left the game
+[07:59:32] [User Authenticator #24/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[07:59:33] [Server thread/INFO]: Player5 joined the game
+[07:59:33] [Server thread/INFO]: Player5[/127.124.213.248:39461] logged in with entity id 2506 at ([world]-37.3, 67.0, 46.10583305060291)
+[08:00:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:00:26] [Server thread/INFO]: Player5 left the game
+[08:00:45] [User Authenticator #25/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:00:45] [Server thread/INFO]: Player5 joined the game
+[08:00:45] [Server thread/INFO]: Player5[/127.234.100.229:38113] logged in with entity id 2594 at ([world]-37.3, 67.0, 46.787672916497264)
+[08:01:39] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:01:39] [Server thread/INFO]: Player5 left the game
+[08:02:05] [User Authenticator #26/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:02:05] [Server thread/INFO]: Player5 joined the game
+[08:02:05] [Server thread/INFO]: Player5[/127.197.243.44:55297] logged in with entity id 2682 at ([world]-38.3, 67.0, 43.3)
+[08:02:58] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:02:58] [Server thread/INFO]: Player5 left the game
+[08:03:23] [User Authenticator #27/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:03:24] [Server thread/INFO]: Player5 joined the game
+[08:03:24] [Server thread/INFO]: Player5[/127.39.48.89:50509] logged in with entity id 2781 at ([world]-40.7, 66.0, 45.3)
+[08:04:16] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:04:16] [Server thread/INFO]: Player5 left the game
+[08:04:33] [User Authenticator #28/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:04:33] [Server thread/INFO]: Player5 joined the game
+[08:04:33] [Server thread/INFO]: Player5[/127.64.90.31:48037] logged in with entity id 2877 at ([world]-40.7, 66.0, 45.3)
+[08:05:27] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:05:27] [Server thread/INFO]: Player5 left the game
+[08:05:54] [User Authenticator #29/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:05:55] [Server thread/INFO]: Player5 joined the game
+[08:05:55] [Server thread/INFO]: Player5[/127.76.141.2:38531] logged in with entity id 2971 at ([world]-41.7, 67.0, 44.97251143117478)
+[08:06:47] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:06:47] [Server thread/INFO]: Player5 left the game
+[08:07:11] [User Authenticator #30/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:07:11] [Server thread/INFO]: Player5 joined the game
+[08:07:11] [Server thread/INFO]: Player5[/127.178.13.63:58625] logged in with entity id 3074 at ([world]-41.7, 67.0, 44.3)
+[08:08:05] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:08:05] [Server thread/INFO]: Player5 left the game
+[08:08:23] [User Authenticator #31/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:08:24] [Server thread/INFO]: Player5 joined the game
+[08:08:24] [Server thread/INFO]: Player5[/127.73.235.243:43157] logged in with entity id 3165 at ([world]-39.97702275734717, 67.0, 43.3)
+[08:09:16] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:09:16] [Server thread/INFO]: Player5 left the game
+[08:09:36] [User Authenticator #32/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:09:37] [Server thread/INFO]: Player5 joined the game
+[08:09:37] [Server thread/INFO]: Player5[/127.121.63.213:56465] logged in with entity id 3259 at ([world]-40.7, 67.0, 44.17078977940164)
+[08:10:30] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:10:30] [Server thread/INFO]: Player5 left the game
+[08:10:47] [User Authenticator #33/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:10:48] [Server thread/INFO]: Player5 joined the game
+[08:10:48] [Server thread/INFO]: Player5[/127.198.39.201:35347] logged in with entity id 3350 at ([world]-40.7, 67.0, 43.3)
+[08:11:41] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:11:41] [Server thread/INFO]: Player5 left the game
+[08:12:06] [User Authenticator #34/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:12:07] [Server thread/INFO]: Player5 joined the game
+[08:12:07] [Server thread/INFO]: Player5[/127.74.27.90:40815] logged in with entity id 3458 at ([world]-40.7, 67.0, 43.3)
+[08:13:00] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:13:00] [Server thread/INFO]: Player5 left the game
+[08:13:24] [User Authenticator #35/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:13:25] [Server thread/INFO]: Player5 joined the game
+[08:13:25] [Server thread/INFO]: Player5[/127.153.209.161:44639] logged in with entity id 3552 at ([world]-40.7, 67.0, 43.3)
+[08:14:17] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:14:17] [Server thread/INFO]: Player5 left the game
+[08:14:37] [User Authenticator #36/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:14:37] [Server thread/INFO]: Player5 joined the game
+[08:14:37] [Server thread/INFO]: Player5[/127.186.107.97:54727] logged in with entity id 3653 at ([world]-41.549340562123746, 67.0, 46.7)
+[08:15:30] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:15:30] [Server thread/INFO]: Player5 left the game
+[08:15:58] [User Authenticator #37/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:15:58] [Server thread/INFO]: Player5 joined the game
+[08:15:58] [Server thread/INFO]: Player5[/127.221.85.238:33847] logged in with entity id 3750 at ([world]-37.73180042248941, 67.0, 47.7)
+[08:16:51] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:16:51] [Server thread/INFO]: Player5 left the game
+[08:17:16] [User Authenticator #38/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:17:16] [Server thread/INFO]: Player5 joined the game
+[08:17:16] [Server thread/INFO]: Player5[/127.72.183.47:43839] logged in with entity id 3832 at ([world]-41.7, 67.0, 46.7)
+[08:18:09] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:18:09] [Server thread/INFO]: Player5 left the game
+[08:18:28] [User Authenticator #39/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:18:29] [Server thread/INFO]: Player5 joined the game
+[08:18:29] [Server thread/INFO]: Player5[/127.87.245.89:56319] logged in with entity id 3930 at ([world]-39.3, 66.0, 45.272327095648535)
+[08:19:22] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:19:22] [Server thread/INFO]: Player5 left the game
+[08:19:41] [User Authenticator #40/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:19:41] [Server thread/INFO]: Player5 joined the game
+[08:19:41] [Server thread/INFO]: Player5[/127.205.77.191:39425] logged in with entity id 4022 at ([world]-39.7, 66.0, 44.3)
+[08:20:35] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:20:35] [Server thread/INFO]: Player5 left the game
+[08:20:54] [User Authenticator #41/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:20:55] [Server thread/INFO]: Player5 joined the game
+[08:20:55] [Server thread/INFO]: Player5[/127.206.98.71:57895] logged in with entity id 4108 at ([world]-37.3, 67.0, 45.67588864242977)
+[08:21:48] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:21:48] [Server thread/INFO]: Player5 left the game
+[08:22:12] [User Authenticator #42/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:22:13] [Server thread/INFO]: Player5 joined the game
+[08:22:13] [Server thread/INFO]: Player5[/127.63.129.112:45993] logged in with entity id 4191 at ([world]-37.3, 67.0, 44.8638047589345)
+[08:23:05] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:23:05] [Server thread/INFO]: Player5 left the game
+[08:23:34] [User Authenticator #43/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:23:34] [Server thread/INFO]: Player5 joined the game
+[08:23:34] [Server thread/INFO]: Player5[/127.164.78.248:39743] logged in with entity id 4280 at ([world]-37.941750707366374, 67.0, 44.483483797410116)
+[08:24:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:24:28] [Server thread/INFO]: Player5 left the game
+[08:24:46] [User Authenticator #44/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:24:47] [Server thread/INFO]: Player5 joined the game
+[08:24:47] [Server thread/INFO]: Player5[/127.217.104.16:54535] logged in with entity id 4369 at ([world]-37.3, 67.0, 47.27005951381405)
+[08:25:40] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:25:40] [Server thread/INFO]: Player5 left the game
+[08:26:08] [User Authenticator #45/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:26:08] [Server thread/INFO]: Player5 joined the game
+[08:26:08] [Server thread/INFO]: Player5[/127.197.47.116:43971] logged in with entity id 4468 at ([world]-40.31231917279379, 66.0, 45.3)
+[08:27:02] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:27:02] [Server thread/INFO]: Player5 left the game
+[08:27:24] [User Authenticator #46/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:27:25] [Server thread/INFO]: Player5 joined the game
+[08:27:25] [Server thread/INFO]: Player5[/127.200.197.17:38407] logged in with entity id 4554 at ([world]-41.7, 67.0, 46.57667977591013)
+[08:28:18] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:28:18] [Server thread/INFO]: Player5 left the game
+[08:28:43] [User Authenticator #47/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:28:43] [Server thread/INFO]: Player5 joined the game
+[08:28:43] [Server thread/INFO]: Player5[/127.80.144.187:52983] logged in with entity id 4640 at ([world]-41.7, 67.0, 46.7)
+[08:29:36] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:29:36] [Server thread/INFO]: Player5 left the game
+[08:29:55] [User Authenticator #48/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:29:56] [Server thread/INFO]: Player5 joined the game
+[08:29:56] [Server thread/INFO]: Player5[/127.178.8.1:56639] logged in with entity id 4741 at ([world]-40.7, 67.0, 47.81557724756263)
+[08:30:50] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:30:50] [Server thread/INFO]: Player5 left the game
+[08:31:07] [User Authenticator #49/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:31:08] [Server thread/INFO]: Player5 joined the game
+[08:31:08] [Server thread/INFO]: Player5[/127.10.193.108:44621] logged in with entity id 4834 at ([world]-39.3, 66.0, 44.49871912594082)
+[08:32:01] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:32:01] [Server thread/INFO]: Player5 left the game
+[08:32:19] [User Authenticator #50/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:32:19] [Server thread/INFO]: Player5 joined the game
+[08:32:19] [Server thread/INFO]: Player5[/127.26.200.165:50297] logged in with entity id 4924 at ([world]-39.3, 66.0, 44.3)
+[08:33:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:33:13] [Server thread/INFO]: Player5 left the game
+[08:33:33] [User Authenticator #51/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:33:33] [Server thread/INFO]: Player5 joined the game
+[08:33:33] [Server thread/INFO]: Player5[/127.22.144.142:53581] logged in with entity id 5019 at ([world]-41.7, 67.0, 46.7)
+[08:34:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:34:26] [Server thread/INFO]: Player5 left the game
+[08:34:50] [User Authenticator #52/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:34:51] [Server thread/INFO]: Player5 joined the game
+[08:34:51] [Server thread/INFO]: Player5[/127.250.155.176:49533] logged in with entity id 5111 at ([world]-41.11116514400013, 67.0, 44.512818907645496)
+[08:35:43] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:35:43] [Server thread/INFO]: Player5 left the game
+[08:36:04] [User Authenticator #53/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:36:05] [Server thread/INFO]: Player5 joined the game
+[08:36:05] [Server thread/INFO]: Player5[/127.49.210.82:50625] logged in with entity id 5191 at ([world]-39.3, 66.0, 46.7)
+[08:36:58] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:36:58] [Server thread/INFO]: Player5 left the game
+[08:37:30] [User Authenticator #54/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:37:31] [Server thread/INFO]: Player5 joined the game
+[08:37:31] [Server thread/INFO]: Player5[/127.138.129.12:36833] logged in with entity id 5286 at ([world]-38.3, 67.0, 49.7)
+[08:38:24] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:38:24] [Server thread/INFO]: Player5 left the game
+[08:38:41] [User Authenticator #55/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:38:42] [Server thread/INFO]: Player5 joined the game
+[08:38:42] [Server thread/INFO]: Player5[/127.107.231.133:55503] logged in with entity id 5377 at ([world]-40.7, 67.0, 49.61223236372688)
+[08:39:35] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:39:35] [Server thread/INFO]: Player5 left the game
+[08:39:53] [User Authenticator #56/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:39:54] [Server thread/INFO]: Player5 joined the game
+[08:39:54] [Server thread/INFO]: Player5[/127.165.184.179:52951] logged in with entity id 5475 at ([world]-40.3, 67.0, 49.7)
+[08:40:46] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:40:46] [Server thread/INFO]: Player5 left the game
+[08:41:06] [User Authenticator #57/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:41:07] [Server thread/INFO]: Player5 joined the game
+[08:41:07] [Server thread/INFO]: Player5[/127.86.95.44:48991] logged in with entity id 5565 at ([world]-41.7, 67.0, 49.3)
+[08:42:00] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:42:00] [Server thread/INFO]: Player5 left the game
+[08:42:18] [User Authenticator #58/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:42:19] [Server thread/INFO]: Player5 joined the game
+[08:42:19] [Server thread/INFO]: Player5[/127.167.159.125:59961] logged in with entity id 5646 at ([world]-39.15361623178065, 67.0, 47.4875847892212)
+[08:43:12] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:43:12] [Server thread/INFO]: Player5 left the game
+[08:43:32] [User Authenticator #59/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:43:33] [Server thread/INFO]: Player5 joined the game
+[08:43:33] [Server thread/INFO]: Player5[/127.171.22.209:35491] logged in with entity id 5746 at ([world]-40.153105023385834, 66.0, 45.3)
+[08:44:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:44:26] [Server thread/INFO]: Player5 left the game
+[08:44:50] [User Authenticator #60/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:44:51] [Server thread/INFO]: Player5 joined the game
+[08:44:51] [Server thread/INFO]: Player5[/127.117.171.38:49193] logged in with entity id 5847 at ([world]-41.7, 67.0, 44.3)
+[08:45:43] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:45:43] [Server thread/INFO]: Player5 left the game
+[08:46:04] [User Authenticator #61/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:46:05] [Server thread/INFO]: Player5 joined the game
+[08:46:05] [Server thread/INFO]: Player5[/127.234.4.146:35061] logged in with entity id 5941 at ([world]-39.7, 66.0, 46.7)
+[08:46:58] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:46:58] [Server thread/INFO]: Player5 left the game
+[08:47:20] [User Authenticator #62/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:47:21] [Server thread/INFO]: Player5 joined the game
+[08:47:21] [Server thread/INFO]: Player5[/127.143.114.254:55353] logged in with entity id 6021 at ([world]-39.7, 66.0, 46.7)
+[08:47:53] [Server thread/INFO]: Player5 lost connection: Timed out
+[08:47:53] [Server thread/INFO]: Player5 left the game
+[08:48:35] [User Authenticator #63/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:48:36] [Server thread/INFO]: Player5 joined the game
+[08:48:36] [Server thread/INFO]: Player5[/127.79.81.84:43665] logged in with entity id 6088 at ([world]-39.7, 65.62336950176135, 46.7)
+[08:49:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:49:28] [Server thread/INFO]: Player5 left the game
+[08:49:54] [User Authenticator #64/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:49:54] [Server thread/INFO]: Player5 joined the game
+[08:49:54] [Server thread/INFO]: Player5[/127.14.72.206:43193] logged in with entity id 6165 at ([world]-37.7, 63.0, 44.3)
+[08:50:47] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:50:47] [Server thread/INFO]: Player5 left the game
+[08:51:07] [User Authenticator #65/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:51:08] [Server thread/INFO]: Player5 joined the game
+[08:51:08] [Server thread/INFO]: Player5[/127.196.212.237:39807] logged in with entity id 6258 at ([world]-37.3, 63.0, 44.3)
+[08:52:00] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:52:00] [Server thread/INFO]: Player5 left the game
+[08:52:26] [User Authenticator #66/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:52:27] [Server thread/INFO]: Player5 joined the game
+[08:52:27] [Server thread/INFO]: Player5[/127.36.252.116:60105] logged in with entity id 6343 at ([world]-37.7, 63.0, 44.3)
+[08:53:19] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:53:19] [Server thread/INFO]: Player5 left the game
+[08:53:36] [User Authenticator #67/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:53:37] [Server thread/INFO]: Player5 joined the game
+[08:53:37] [Server thread/INFO]: Player5[/127.168.77.134:55247] logged in with entity id 6419 at ([world]-38.7, 64.0, 43.3)
+[08:54:30] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:54:30] [Server thread/INFO]: Player5 left the game
+[08:54:52] [User Authenticator #68/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:54:53] [Server thread/INFO]: Player5 joined the game
+[08:54:53] [Server thread/INFO]: Player5[/127.55.230.192:36425] logged in with entity id 6509 at ([world]-38.7, 64.0, 43.3)
+[08:55:46] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:55:46] [Server thread/INFO]: Player5 left the game
+[08:56:12] [User Authenticator #69/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:56:12] [Server thread/INFO]: Player5 joined the game
+[08:56:12] [Server thread/INFO]: Player5[/127.7.122.78:32771] logged in with entity id 6594 at ([world]-39.7, 64.0, 45.7)
+[08:57:06] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:57:06] [Server thread/INFO]: Player5 left the game
+[08:57:27] [User Authenticator #70/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:57:28] [Server thread/INFO]: Player5 joined the game
+[08:57:28] [Server thread/INFO]: Player5[/127.196.39.57:47023] logged in with entity id 6679 at ([world]-37.3, 64.0, 43.3)
+[08:58:21] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:58:21] [Server thread/INFO]: Player5 left the game
+[08:58:42] [User Authenticator #71/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[08:58:42] [Server thread/INFO]: Player5 joined the game
+[08:58:42] [Server thread/INFO]: Player5[/127.205.16.103:39567] logged in with entity id 6764 at ([world]-39.7, 64.0, 45.7)
+[08:59:35] [Server thread/INFO]: Player5 lost connection: Disconnected
+[08:59:35] [Server thread/INFO]: Player5 left the game
+[09:00:01] [User Authenticator #72/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:00:01] [Server thread/INFO]: Player5 joined the game
+[09:00:01] [Server thread/INFO]: Player5[/127.205.132.200:37975] logged in with entity id 6857 at ([world]-38.308089498735534, 64.0, 43.3)
+[09:00:54] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:00:54] [Server thread/INFO]: Player5 left the game
+[09:01:14] [User Authenticator #73/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:01:15] [Server thread/INFO]: Player5 joined the game
+[09:01:15] [Server thread/INFO]: Player5[/127.219.175.50:33567] logged in with entity id 6950 at ([world]-37.3, 63.0, 44.3)
+[09:02:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:02:07] [Server thread/INFO]: Player5 left the game
+[09:02:30] [User Authenticator #74/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:02:31] [Server thread/INFO]: Player5 joined the game
+[09:02:31] [Server thread/INFO]: Player5[/127.39.219.17:54775] logged in with entity id 7028 at ([world]-39.7, 64.0, 45.40443809805068)
+[09:03:23] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:03:23] [Server thread/INFO]: Player5 left the game
+[09:03:44] [User Authenticator #75/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:03:44] [Server thread/INFO]: Player5 joined the game
+[09:03:44] [Server thread/INFO]: Player5[/127.81.10.204:39693] logged in with entity id 7129 at ([world]-39.7, 64.0, 45.7)
+[09:04:38] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:04:38] [Server thread/INFO]: Player5 left the game
+[09:04:58] [User Authenticator #76/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:04:59] [Server thread/INFO]: Player5 joined the game
+[09:04:59] [Server thread/INFO]: Player5[/127.208.43.195:47125] logged in with entity id 7219 at ([world]-37.3, 63.0, 45.7)
+[09:05:52] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:05:52] [Server thread/INFO]: Player5 left the game
+[09:06:14] [User Authenticator #77/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:06:14] [Server thread/INFO]: Player5 joined the game
+[09:06:14] [Server thread/INFO]: Player5[/127.122.221.229:59097] logged in with entity id 7304 at ([world]-37.3, 63.0, 44.3)
+[09:07:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:07:07] [Server thread/INFO]: Player5 left the game
+[09:07:31] [User Authenticator #78/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:07:31] [Server thread/INFO]: Player5 joined the game
+[09:07:31] [Server thread/INFO]: Player5[/127.20.20.99:37167] logged in with entity id 7405 at ([world]-37.3, 63.0, 45.7)
+[09:08:24] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:08:24] [Server thread/INFO]: Player5 left the game
+[09:08:46] [User Authenticator #79/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:08:46] [Server thread/INFO]: Player5 joined the game
+[09:08:46] [Server thread/INFO]: Player5[/127.65.22.45:59639] logged in with entity id 7495 at ([world]-37.3, 63.0, 44.3)
+[09:09:40] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:09:40] [Server thread/INFO]: Player5 left the game
+[09:10:05] [User Authenticator #80/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:10:06] [Server thread/INFO]: Player5 joined the game
+[09:10:06] [Server thread/INFO]: Player5[/127.128.20.85:55635] logged in with entity id 7584 at ([world]-37.7, 63.0, 45.7)
+[09:10:58] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:10:58] [Server thread/INFO]: Player5 left the game
+[09:11:19] [User Authenticator #81/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:11:20] [Server thread/INFO]: Player5 joined the game
+[09:11:20] [Server thread/INFO]: Player5[/127.153.77.129:58395] logged in with entity id 7671 at ([world]-37.3, 63.0, 45.7)
+[09:12:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:12:13] [Server thread/INFO]: Player5 left the game
+[09:12:32] [User Authenticator #82/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:12:32] [Server thread/INFO]: Player5 joined the game
+[09:12:32] [Server thread/INFO]: Player5[/127.221.27.255:39417] logged in with entity id 7766 at ([world]-37.3, 63.0, 44.3)
+[09:13:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:13:26] [Server thread/INFO]: Player5 left the game
+[09:13:47] [User Authenticator #83/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:13:48] [Server thread/INFO]: Player5 joined the game
+[09:13:48] [Server thread/INFO]: Player5[/127.102.152.3:60243] logged in with entity id 7850 at ([world]-37.7, 63.0, 44.3)
+[09:14:40] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:14:40] [Server thread/INFO]: Player5 left the game
+[09:15:21] [User Authenticator #84/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:15:22] [Server thread/INFO]: Player5 joined the game
+[09:15:22] [Server thread/INFO]: Player5[/127.29.76.98:37905] logged in with entity id 7938 at ([world]-37.7, 63.0, 45.7)
+[09:16:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:16:15] [Server thread/INFO]: Player5 left the game
+[09:16:33] [User Authenticator #85/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:16:34] [Server thread/INFO]: Player5 joined the game
+[09:16:34] [Server thread/INFO]: Player5[/127.255.123.194:59797] logged in with entity id 8015 at ([world]-37.99856847607552, 64.0, 43.3)
+[09:17:27] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:17:27] [Server thread/INFO]: Player5 left the game
+[09:17:56] [User Authenticator #86/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:17:56] [Server thread/INFO]: Player5 joined the game
+[09:17:56] [Server thread/INFO]: Player5[/127.29.102.232:37045] logged in with entity id 8113 at ([world]-37.3, 63.0, 44.3)
+[09:18:49] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:18:49] [Server thread/INFO]: Player5 left the game
+[09:19:11] [User Authenticator #87/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:19:12] [Server thread/INFO]: Player5 joined the game
+[09:19:12] [Server thread/INFO]: Player5[/127.21.149.232:38303] logged in with entity id 8211 at ([world]-37.7, 63.0, 45.7)
+[09:20:04] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:20:04] [Server thread/INFO]: Player5 left the game
+[09:20:25] [User Authenticator #88/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:20:26] [Server thread/INFO]: Player5 joined the game
+[09:20:26] [Server thread/INFO]: Player5[/127.5.93.143:58275] logged in with entity id 8287 at ([world]-37.7, 63.0, 44.3)
+[09:21:18] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:21:18] [Server thread/INFO]: Player5 left the game
+[09:21:40] [User Authenticator #89/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:21:40] [Server thread/INFO]: Player5 joined the game
+[09:21:40] [Server thread/INFO]: Player5[/127.52.138.174:51153] logged in with entity id 8398 at ([world]-39.7, 64.14723907595965, 45.7)
+[09:22:34] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:22:34] [Server thread/INFO]: Player5 left the game
+[09:23:02] [User Authenticator #90/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:23:03] [Server thread/INFO]: Player5 joined the game
+[09:23:03] [Server thread/INFO]: Player5[/127.236.193.198:39467] logged in with entity id 8506 at ([world]-39.7, 64.34948517749058, 45.666557951203714)
+[09:23:56] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:23:56] [Server thread/INFO]: Player5 left the game
+[09:24:18] [User Authenticator #91/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:24:18] [Server thread/INFO]: Player5 joined the game
+[09:24:18] [Server thread/INFO]: Player5[/127.70.110.208:44751] logged in with entity id 8612 at ([world]-39.7, 64.40003544517215, 45.7)
+[09:25:11] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:25:11] [Server thread/INFO]: Player5 left the game
+[09:25:34] [User Authenticator #92/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:25:35] [Server thread/INFO]: Player5 joined the game
+[09:25:35] [Server thread/INFO]: Player5[/127.188.202.189:51141] logged in with entity id 8719 at ([world]-40.7, 65.0, 43.3)
+[09:26:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:26:28] [Server thread/INFO]: Player5 left the game
+[09:26:50] [User Authenticator #93/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:26:50] [Server thread/INFO]: Player5 joined the game
+[09:26:50] [Server thread/INFO]: Player5[/127.98.5.231:46979] logged in with entity id 8818 at ([world]-40.5241471872899, 65.0, 43.3)
+[09:27:44] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:27:44] [Server thread/INFO]: Player5 left the game
+[09:28:08] [User Authenticator #94/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:28:09] [Server thread/INFO]: Player5 joined the game
+[09:28:09] [Server thread/INFO]: Player5[/127.206.161.145:60007] logged in with entity id 8923 at ([world]-39.57326162210059, 65.0, 43.3)
+[09:29:01] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:29:01] [Server thread/INFO]: Player5 left the game
+[09:29:22] [User Authenticator #95/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:29:22] [Server thread/INFO]: Player5 joined the game
+[09:29:22] [Server thread/INFO]: Player5[/127.88.64.93:58383] logged in with entity id 9019 at ([world]-37.36151817073337, 63.0, 45.7)
+[09:30:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:30:15] [Server thread/INFO]: Player5 left the game
+[09:30:40] [User Authenticator #96/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:30:41] [Server thread/INFO]: Player5 joined the game
+[09:30:41] [Server thread/INFO]: Player5[/127.242.232.246:51521] logged in with entity id 9131 at ([world]-37.35667737087492, 64.0, 43.3)
+[09:31:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:31:33] [Server thread/INFO]: Player5 left the game
+[09:32:00] [User Authenticator #97/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:32:00] [Server thread/INFO]: Player5 joined the game
+[09:32:00] [Server thread/INFO]: Player5[/127.190.103.211:56927] logged in with entity id 9235 at ([world]-37.36912746782176, 64.0, 43.3)
+[09:32:53] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:32:53] [Server thread/INFO]: Player5 left the game
+[09:33:15] [User Authenticator #98/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:33:15] [Server thread/INFO]: Player5 joined the game
+[09:33:15] [Server thread/INFO]: Player5[/127.214.30.217:41731] logged in with entity id 9355 at ([world]-39.7, 64.0, 45.56535342632548)
+[09:34:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:34:07] [Server thread/INFO]: Player5 left the game
+[09:34:29] [User Authenticator #99/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:34:29] [Server thread/INFO]: Player5 joined the game
+[09:34:29] [Server thread/INFO]: Player5[/127.46.33.160:54707] logged in with entity id 9467 at ([world]-37.68343045012955, 63.0, 45.7)
+[09:35:22] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:35:22] [Server thread/INFO]: Player5 left the game
+[09:35:41] [User Authenticator #100/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:35:42] [Server thread/INFO]: Player5 joined the game
+[09:35:42] [Server thread/INFO]: Player5[/127.14.65.122:59185] logged in with entity id 9577 at ([world]-37.3, 64.0, 46.62666273392644)
+[09:36:35] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:36:35] [Server thread/INFO]: Player5 left the game
+[09:36:53] [User Authenticator #101/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:36:54] [Server thread/INFO]: Player5 joined the game
+[09:36:54] [Server thread/INFO]: Player5[/127.141.139.80:35161] logged in with entity id 9683 at ([world]-38.7, 64.0, 43.30266266769993)
+[09:37:47] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:37:47] [Server thread/INFO]: Player5 left the game
+[09:38:11] [User Authenticator #102/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:38:12] [Server thread/INFO]: Player5 joined the game
+[09:38:12] [Server thread/INFO]: Player5[/127.34.125.172:42431] logged in with entity id 9792 at ([world]-39.7, 64.0, 45.7)
+[09:39:03] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:39:03] [Server thread/INFO]: Player5 left the game
+[09:39:36] [User Authenticator #103/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:39:36] [Server thread/INFO]: Player5 joined the game
+[09:39:36] [Server thread/INFO]: Player5[/127.55.3.24:56909] logged in with entity id 9891 at ([world]-39.7, 64.0, 45.7)
+[09:40:30] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:40:30] [Server thread/INFO]: Player5 left the game
+[09:40:47] [User Authenticator #104/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:40:48] [Server thread/INFO]: Player5 joined the game
+[09:40:48] [Server thread/INFO]: Player5[/127.7.122.78:45797] logged in with entity id 9975 at ([world]-39.7, 64.0, 45.7)
+[09:41:41] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:41:41] [Server thread/INFO]: Player5 left the game
+[09:42:01] [User Authenticator #105/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:42:02] [Server thread/INFO]: Player5 joined the game
+[09:42:02] [Server thread/INFO]: Player5[/127.201.98.27:42921] logged in with entity id 10077 at ([world]-39.7, 64.0, 45.7)
+[09:42:55] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:42:55] [Server thread/INFO]: Player5 left the game
+[09:43:16] [User Authenticator #106/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:43:16] [Server thread/INFO]: Player5 joined the game
+[09:43:16] [Server thread/INFO]: Player5[/127.245.51.253:53309] logged in with entity id 10178 at ([world]-37.3, 63.0, 44.951414455187034)
+[09:44:08] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:44:08] [Server thread/INFO]: Player5 left the game
+[09:44:28] [User Authenticator #107/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:44:29] [Server thread/INFO]: Player5 joined the game
+[09:44:29] [Server thread/INFO]: Player5[/127.143.120.195:56439] logged in with entity id 10267 at ([world]-37.7, 63.0, 44.3)
+[09:45:22] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:45:22] [Server thread/INFO]: Player5 left the game
+[09:45:44] [User Authenticator #108/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:45:44] [Server thread/INFO]: Player5 joined the game
+[09:45:44] [Server thread/INFO]: Player5[/127.23.121.168:59373] logged in with entity id 10354 at ([world]-37.3, 63.0, 45.584068475131346)
+[09:46:37] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:46:37] [Server thread/INFO]: Player5 left the game
+[09:47:00] [User Authenticator #109/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:47:00] [Server thread/INFO]: Player5 joined the game
+[09:47:00] [Server thread/INFO]: Player5[/127.209.65.102:55383] logged in with entity id 10452 at ([world]-37.3, 63.0, 45.066080762953526)
+[09:47:53] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:47:53] [Server thread/INFO]: Player5 left the game
+[09:48:14] [User Authenticator #110/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:48:14] [Server thread/INFO]: Player5 joined the game
+[09:48:14] [Server thread/INFO]: Player5[/127.100.173.54:33303] logged in with entity id 10548 at ([world]-37.3, 63.0, 44.93630909762693)
+[09:49:08] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:49:08] [Server thread/INFO]: Player5 left the game
+[09:49:36] [User Authenticator #111/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:49:37] [Server thread/INFO]: Player5 joined the game
+[09:49:37] [Server thread/INFO]: Player5[/127.196.222.36:58183] logged in with entity id 10640 at ([world]-39.7, 64.0, 45.7)
+[09:50:29] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:50:29] [Server thread/INFO]: Player5 left the game
+[09:50:54] [User Authenticator #112/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:50:55] [Server thread/INFO]: Player5 joined the game
+[09:50:55] [Server thread/INFO]: Player5[/127.43.1.0:35177] logged in with entity id 10736 at ([world]-37.3, 64.0, 46.7)
+[09:51:48] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:51:48] [Server thread/INFO]: Player5 left the game
+[09:52:08] [User Authenticator #113/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:52:09] [Server thread/INFO]: Player5 joined the game
+[09:52:09] [Server thread/INFO]: Player5[/127.252.210.74:33961] logged in with entity id 10829 at ([world]-37.3, 63.0, 45.346001143005815)
+[09:53:02] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:53:02] [Server thread/INFO]: Player5 left the game
+[09:53:23] [User Authenticator #114/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:53:23] [Server thread/INFO]: Player5 joined the game
+[09:53:23] [Server thread/INFO]: Player5[/127.189.171.195:35703] logged in with entity id 10928 at ([world]-37.7, 63.0, 45.7)
+[09:54:16] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:54:16] [Server thread/INFO]: Player5 left the game
+[09:54:38] [User Authenticator #115/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:54:39] [Server thread/INFO]: Player5 joined the game
+[09:54:39] [Server thread/INFO]: Player5[/127.5.68.158:47687] logged in with entity id 11017 at ([world]-37.3, 64.0, 43.3)
+[09:55:32] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:55:32] [Server thread/INFO]: Player5 left the game
+[09:55:54] [User Authenticator #116/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:55:54] [Server thread/INFO]: Player5 joined the game
+[09:55:54] [Server thread/INFO]: Player5[/127.106.50.163:46417] logged in with entity id 11118 at ([world]-37.3, 64.0, 43.3)
+[09:56:48] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:56:48] [Server thread/INFO]: Player5 left the game
+[09:57:12] [User Authenticator #117/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:57:12] [Server thread/INFO]: Player5 joined the game
+[09:57:12] [Server thread/INFO]: Player5[/127.240.182.174:44127] logged in with entity id 11224 at ([world]-39.7, 64.0, 45.7)
+[09:58:06] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:58:06] [Server thread/INFO]: Player5 left the game
+[09:58:24] [User Authenticator #118/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:58:25] [Server thread/INFO]: Player5 joined the game
+[09:58:25] [Server thread/INFO]: Player5[/127.217.225.163:35845] logged in with entity id 11307 at ([world]-37.7, 64.0, 46.7)
+[09:59:17] [Server thread/INFO]: Player5 lost connection: Disconnected
+[09:59:17] [Server thread/INFO]: Player5 left the game
+[09:59:40] [User Authenticator #119/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[09:59:41] [Server thread/INFO]: Player5 joined the game
+[09:59:41] [Server thread/INFO]: Player5[/127.106.134.164:45999] logged in with entity id 11407 at ([world]-37.3, 64.0, 44.1324431162838)
+[10:00:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:00:33] [Server thread/INFO]: Player5 left the game
+[10:00:54] [User Authenticator #120/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:00:55] [Server thread/INFO]: Player5 joined the game
+[10:00:55] [Server thread/INFO]: Player5[/127.27.97.102:36619] logged in with entity id 11498 at ([world]-37.3, 63.0, 45.7)
+[10:01:47] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:01:47] [Server thread/INFO]: Player5 left the game
+[10:03:17] [User Authenticator #121/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:03:17] [Server thread/INFO]: Player5 joined the game
+[10:03:17] [Server thread/INFO]: Player5[/127.232.10.253:55639] logged in with entity id 11594 at ([world]-37.7, 63.0, 45.7)
+[10:04:10] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:04:10] [Server thread/INFO]: Player5 left the game
+[10:04:48] [User Authenticator #122/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:04:49] [Server thread/INFO]: Player5 joined the game
+[10:04:49] [Server thread/INFO]: Player5[/127.41.233.119:46233] logged in with entity id 11687 at ([world]-37.3, 63.0, 45.7)
+[10:05:41] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:05:41] [Server thread/INFO]: Player5 left the game
+[10:06:06] [User Authenticator #123/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:06:07] [Server thread/INFO]: Player5 joined the game
+[10:06:07] [Server thread/INFO]: Player5[/127.254.189.1:39889] logged in with entity id 11782 at ([world]-37.3, 63.0, 44.3)
+[10:06:59] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:06:59] [Server thread/INFO]: Player5 left the game
+[10:07:20] [User Authenticator #124/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:07:20] [Server thread/INFO]: Player5 joined the game
+[10:07:20] [Server thread/INFO]: Player5[/127.37.199.66:50903] logged in with entity id 11861 at ([world]-37.7, 63.0, 44.3)
+[10:08:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:08:13] [Server thread/INFO]: Player5 left the game
+[10:08:41] [User Authenticator #125/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:08:42] [Server thread/INFO]: Player5 joined the game
+[10:08:42] [Server thread/INFO]: Player5[/127.61.225.18:56781] logged in with entity id 11946 at ([world]-37.3, 64.0, 43.3)
+[10:09:35] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:09:35] [Server thread/INFO]: Player5 left the game
+[10:09:57] [User Authenticator #126/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:09:58] [Server thread/INFO]: Player5 joined the game
+[10:09:58] [Server thread/INFO]: Player5[/127.15.250.154:40519] logged in with entity id 12030 at ([world]-37.3, 64.0, 43.32411354086204)
+[10:10:50] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:10:50] [Server thread/INFO]: Player5 left the game
+[10:11:13] [User Authenticator #127/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:11:14] [Server thread/INFO]: Player5 joined the game
+[10:11:14] [Server thread/INFO]: Player5[/127.115.211.246:44077] logged in with entity id 12125 at ([world]-37.3, 63.0, 45.7)
+[10:12:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:12:07] [Server thread/INFO]: Player5 left the game
+[10:12:21] [User Authenticator #128/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:12:22] [Server thread/INFO]: Player5 joined the game
+[10:12:22] [Server thread/INFO]: Player5[/127.200.143.153:56675] logged in with entity id 12228 at ([world]-37.7, 63.0, 45.7)
+[10:13:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:13:15] [Server thread/INFO]: Player5 left the game
+[10:13:39] [User Authenticator #129/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:13:40] [Server thread/INFO]: Player5 joined the game
+[10:13:40] [Server thread/INFO]: Player5[/127.220.88.122:33169] logged in with entity id 12326 at ([world]-37.3, 63.0, 44.86989279882414)
+[10:14:32] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:14:32] [Server thread/INFO]: Player5 left the game
+[10:14:52] [User Authenticator #130/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:14:53] [Server thread/INFO]: Player5 joined the game
+[10:14:53] [Server thread/INFO]: Player5[/127.24.36.106:54455] logged in with entity id 12412 at ([world]-37.3, 64.0, 43.3)
+[10:15:45] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:15:45] [Server thread/INFO]: Player5 left the game
+[10:16:12] [User Authenticator #131/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:16:13] [Server thread/INFO]: Player5 joined the game
+[10:16:13] [Server thread/INFO]: Player5[/127.110.11.132:47649] logged in with entity id 12507 at ([world]-37.3, 64.0, 46.64574107017328)
+[10:17:06] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:17:06] [Server thread/INFO]: Player5 left the game
+[10:17:21] [User Authenticator #132/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:17:21] [Server thread/INFO]: Player5 joined the game
+[10:17:21] [Server thread/INFO]: Player5[/127.216.52.15:53183] logged in with entity id 12584 at ([world]-37.3, 63.0, 44.62937897730165)
+[10:18:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:18:15] [Server thread/INFO]: Player5 left the game
+[10:18:30] [User Authenticator #133/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:18:31] [Server thread/INFO]: Player5 joined the game
+[10:18:31] [Server thread/INFO]: Player5[/127.62.189.104:56193] logged in with entity id 12676 at ([world]-37.7, 63.0, 44.3)
+[10:19:24] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:19:24] [Server thread/INFO]: Player5 left the game
+[10:19:45] [User Authenticator #134/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:19:46] [Server thread/INFO]: Player5 joined the game
+[10:19:46] [Server thread/INFO]: Player5[/127.207.135.36:38587] logged in with entity id 12763 at ([world]-39.7, 64.0, 44.3)
+[10:20:38] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:20:38] [Server thread/INFO]: Player5 left the game
+[10:20:56] [User Authenticator #135/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:20:56] [Server thread/INFO]: Player5 joined the game
+[10:20:56] [Server thread/INFO]: Player5[/127.29.85.254:41409] logged in with entity id 12853 at ([world]-39.65404878530656, 64.0, 45.7)
+[10:21:49] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:21:49] [Server thread/INFO]: Player5 left the game
+[10:22:12] [User Authenticator #136/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:22:13] [Server thread/INFO]: Player5 joined the game
+[10:22:13] [Server thread/INFO]: Player5[/127.171.161.47:35987] logged in with entity id 12943 at ([world]-37.3, 63.0, 44.90593379414633)
+[10:23:06] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:23:06] [Server thread/INFO]: Player5 left the game
+[10:23:27] [User Authenticator #137/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:23:28] [Server thread/INFO]: Player5 joined the game
+[10:23:28] [Server thread/INFO]: Player5[/127.172.242.139:44337] logged in with entity id 13025 at ([world]-37.3, 64.0, 46.7)
+[10:24:20] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:24:20] [Server thread/INFO]: Player5 left the game
+[10:24:40] [User Authenticator #138/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:24:41] [Server thread/INFO]: Player5 joined the game
+[10:24:41] [Server thread/INFO]: Player5[/127.71.183.94:36979] logged in with entity id 13116 at ([world]-37.3, 63.0, 45.7)
+[10:25:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:25:33] [Server thread/INFO]: Player5 left the game
+[10:25:52] [User Authenticator #139/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:25:53] [Server thread/INFO]: Player5 joined the game
+[10:25:53] [Server thread/INFO]: Player5[/127.239.238.106:49653] logged in with entity id 13195 at ([world]-37.3, 63.0, 44.3)
+[10:26:46] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:26:46] [Server thread/INFO]: Player5 left the game
+[10:27:01] [User Authenticator #140/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:27:02] [Server thread/INFO]: Player5 joined the game
+[10:27:02] [Server thread/INFO]: Player5[/127.185.206.213:35357] logged in with entity id 13293 at ([world]-37.3, 63.0, 44.3)
+[10:27:55] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:27:55] [Server thread/INFO]: Player5 left the game
+[10:28:13] [User Authenticator #141/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:28:14] [Server thread/INFO]: Player5 joined the game
+[10:28:14] [Server thread/INFO]: Player5[/127.177.36.58:44785] logged in with entity id 13376 at ([world]-37.7, 63.0, 44.3)
+[10:29:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:29:07] [Server thread/INFO]: Player5 left the game
+[10:29:28] [User Authenticator #142/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:29:28] [Server thread/INFO]: Player5 joined the game
+[10:29:28] [Server thread/INFO]: Player5[/127.145.80.100:50141] logged in with entity id 13461 at ([world]-37.7, 63.0, 44.3)
+[10:30:21] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:30:21] [Server thread/INFO]: Player5 left the game
+[10:30:45] [User Authenticator #143/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:30:46] [Server thread/INFO]: Player5 joined the game
+[10:30:46] [Server thread/INFO]: Player5[/127.98.42.213:37593] logged in with entity id 13562 at ([world]-37.7, 63.0, 45.7)
+[10:31:39] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:31:39] [Server thread/INFO]: Player5 left the game
+[10:31:57] [User Authenticator #144/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:31:58] [Server thread/INFO]: Player5 joined the game
+[10:31:58] [Server thread/INFO]: Player5[/127.201.107.57:33623] logged in with entity id 13658 at ([world]-38.03063090092225, 64.0, 43.3)
+[10:32:51] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:32:51] [Server thread/INFO]: Player5 left the game
+[10:33:09] [User Authenticator #145/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:33:10] [Server thread/INFO]: Player5 joined the game
+[10:33:10] [Server thread/INFO]: Player5[/127.50.116.176:47469] logged in with entity id 13751 at ([world]-37.3, 63.0, 45.7)
+[10:34:02] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:34:02] [Server thread/INFO]: Player5 left the game
+[10:34:32] [User Authenticator #146/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:34:33] [Server thread/INFO]: Player5 joined the game
+[10:34:33] [Server thread/INFO]: Player5[/127.189.104.139:53027] logged in with entity id 13844 at ([world]-37.3, 63.0, 44.3)
+[10:35:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:35:26] [Server thread/INFO]: Player5 left the game
+[10:35:47] [User Authenticator #147/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:35:48] [Server thread/INFO]: Player5 joined the game
+[10:35:48] [Server thread/INFO]: Player5[/127.245.51.185:49747] logged in with entity id 13934 at ([world]-37.3, 63.0, 44.3)
+[10:36:41] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:36:41] [Server thread/INFO]: Player5 left the game
+[10:37:05] [User Authenticator #148/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:37:06] [Server thread/INFO]: Player5 joined the game
+[10:37:06] [Server thread/INFO]: Player5[/127.228.226.209:53817] logged in with entity id 14023 at ([world]-39.683088586984795, 64.0, 45.7)
+[10:37:59] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:37:59] [Server thread/INFO]: Player5 left the game
+[10:38:18] [User Authenticator #149/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:38:19] [Server thread/INFO]: Player5 joined the game
+[10:38:19] [Server thread/INFO]: Player5[/127.111.176.11:39361] logged in with entity id 14118 at ([world]-37.3, 64.0, 43.3)
+[10:39:12] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:39:12] [Server thread/INFO]: Player5 left the game
+[10:39:35] [User Authenticator #150/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:39:36] [Server thread/INFO]: Player5 joined the game
+[10:39:36] [Server thread/INFO]: Player5[/127.83.197.251:53873] logged in with entity id 14203 at ([world]-37.3, 64.0, 43.378053423144934)
+[10:40:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:40:28] [Server thread/INFO]: Player5 left the game
+[10:40:54] [User Authenticator #151/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:40:55] [Server thread/INFO]: Player5 joined the game
+[10:40:55] [Server thread/INFO]: Player5[/127.21.224.225:52439] logged in with entity id 14304 at ([world]-37.3, 63.0, 45.7)
+[10:41:47] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:41:47] [Server thread/INFO]: Player5 left the game
+[10:42:19] [User Authenticator #152/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:42:20] [Server thread/INFO]: Player5 joined the game
+[10:42:20] [Server thread/INFO]: Player5[/127.105.157.254:56849] logged in with entity id 14383 at ([world]-39.35549534553893, 65.0, 43.12460572066728)
+[10:43:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:43:13] [Server thread/INFO]: Player5 left the game
+[10:43:36] [User Authenticator #153/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:43:36] [Server thread/INFO]: Player5 joined the game
+[10:43:36] [Server thread/INFO]: Player5[/127.24.180.13:60073] logged in with entity id 14466 at ([world]-39.7, 64.0, 44.3)
+[10:44:30] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:44:30] [Server thread/INFO]: Player5 left the game
+[10:44:55] [User Authenticator #154/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:44:56] [Server thread/INFO]: Player5 joined the game
+[10:44:56] [Server thread/INFO]: Player5[/127.213.63.133:44983] logged in with entity id 14576 at ([world]-41.7, 65.0, 46.7)
+[10:45:49] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:45:49] [Server thread/INFO]: Player5 left the game
+[10:46:07] [User Authenticator #155/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:46:08] [Server thread/INFO]: Player5 joined the game
+[10:46:08] [Server thread/INFO]: Player5[/127.8.98.139:38355] logged in with entity id 14669 at ([world]-38.526940236962496, 64.0, 45.7)
+[10:47:02] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:47:02] [Server thread/INFO]: Player5 left the game
+[10:47:21] [User Authenticator #156/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:47:21] [Server thread/INFO]: Player5 joined the game
+[10:47:21] [Server thread/INFO]: Player5[/127.140.9.21:34089] logged in with entity id 14754 at ([world]-39.7, 64.0, 45.14239602610984)
+[10:48:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:48:15] [Server thread/INFO]: Player5 left the game
+[10:48:39] [User Authenticator #157/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:48:40] [Server thread/INFO]: Player5 joined the game
+[10:48:40] [Server thread/INFO]: Player5[/127.209.35.117:50301] logged in with entity id 14843 at ([world]-37.3, 64.0, 46.7)
+[10:49:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:49:33] [Server thread/INFO]: Player5 left the game
+[10:49:54] [User Authenticator #158/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:49:55] [Server thread/INFO]: Player5 joined the game
+[10:49:55] [Server thread/INFO]: Player5[/127.167.78.21:54383] logged in with entity id 14932 at ([world]-37.3, 63.0, 44.3)
+[10:50:47] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:50:47] [Server thread/INFO]: Player5 left the game
+[10:51:07] [User Authenticator #159/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:51:08] [Server thread/INFO]: Player5 joined the game
+[10:51:08] [Server thread/INFO]: Player5[/127.194.221.150:41487] logged in with entity id 15014 at ([world]-37.7, 63.0, 44.3)
+[10:52:01] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:52:01] [Server thread/INFO]: Player5 left the game
+[10:52:20] [User Authenticator #160/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:52:21] [Server thread/INFO]: Player5 joined the game
+[10:52:21] [Server thread/INFO]: Player5[/127.94.230.28:35949] logged in with entity id 15097 at ([world]-37.3, 63.0, 45.00566549356689)
+[10:53:14] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:53:14] [Server thread/INFO]: Player5 left the game
+[10:53:39] [User Authenticator #161/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:53:40] [Server thread/INFO]: Player5 joined the game
+[10:53:40] [Server thread/INFO]: Player5[/127.167.236.248:42521] logged in with entity id 15185 at ([world]-37.3, 63.0, 44.3)
+[10:54:32] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:54:32] [Server thread/INFO]: Player5 left the game
+[10:54:54] [User Authenticator #162/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:54:55] [Server thread/INFO]: Player5 joined the game
+[10:54:55] [Server thread/INFO]: Player5[/127.67.246.17:51007] logged in with entity id 15281 at ([world]-39.145235297945995, 64.0, 45.7)
+[10:55:48] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:55:48] [Server thread/INFO]: Player5 left the game
+[10:56:15] [User Authenticator #163/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:56:16] [Server thread/INFO]: Player5 joined the game
+[10:56:16] [Server thread/INFO]: Player5[/127.229.35.107:37071] logged in with entity id 15382 at ([world]-37.3, 64.0, 43.62916670183149)
+[10:57:09] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:57:09] [Server thread/INFO]: Player5 left the game
+[10:57:33] [User Authenticator #164/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:57:33] [Server thread/INFO]: Player5 joined the game
+[10:57:33] [Server thread/INFO]: Player5[/127.217.254.255:43559] logged in with entity id 15473 at ([world]-38.7, 64.0, 43.3)
+[10:58:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:58:26] [Server thread/INFO]: Player5 left the game
+[10:58:49] [User Authenticator #165/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[10:58:50] [Server thread/INFO]: Player5 joined the game
+[10:58:50] [Server thread/INFO]: Player5[/127.210.86.243:38507] logged in with entity id 15568 at ([world]-39.7, 65.0, 42.3)
+[10:59:42] [Server thread/INFO]: Player5 lost connection: Disconnected
+[10:59:42] [Server thread/INFO]: Player5 left the game
+[11:00:04] [User Authenticator #166/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:00:04] [Server thread/INFO]: Player5 joined the game
+[11:00:04] [Server thread/INFO]: Player5[/127.209.106.183:44665] logged in with entity id 15671 at ([world]-38.3, 65.0, 42.3)
+[11:00:58] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:00:58] [Server thread/INFO]: Player5 left the game
+[11:01:23] [User Authenticator #167/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:01:24] [Server thread/INFO]: Player5 joined the game
+[11:01:24] [Server thread/INFO]: Player5[/127.180.104.4:38065] logged in with entity id 15769 at ([world]-37.3, 64.0, 43.3)
+[11:02:17] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:02:17] [Server thread/INFO]: Player5 left the game
+[11:02:35] [User Authenticator #168/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:02:36] [Server thread/INFO]: Player5 joined the game
+[11:02:36] [Server thread/INFO]: Player5[/127.192.25.245:58103] logged in with entity id 15857 at ([world]-37.3, 63.0, 45.7)
+[11:03:29] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:03:29] [Server thread/INFO]: Player5 left the game
+[11:03:48] [User Authenticator #169/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:03:49] [Server thread/INFO]: Player5 joined the game
+[11:03:49] [Server thread/INFO]: Player5[/127.168.52.188:56801] logged in with entity id 15968 at ([world]-40.039996144151864, 65.0, 46.7)
+[11:04:42] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:04:42] [Server thread/INFO]: Player5 left the game
+[11:05:04] [User Authenticator #170/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:05:04] [Server thread/INFO]: Player5 joined the game
+[11:05:04] [Server thread/INFO]: Player5[/127.4.175.201:33271] logged in with entity id 16066 at ([world]-39.6496164519883, 65.0, 46.7)
+[11:05:57] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:05:57] [Server thread/INFO]: Player5 left the game
+[11:06:16] [User Authenticator #171/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:06:16] [Server thread/INFO]: Player5 joined the game
+[11:06:16] [Server thread/INFO]: Player5[/127.89.186.56:48185] logged in with entity id 16158 at ([world]-41.7, 65.0, 46.7)
+[11:07:10] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:07:10] [Server thread/INFO]: Player5 left the game
+[11:07:30] [User Authenticator #172/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:07:31] [Server thread/INFO]: Player5 joined the game
+[11:07:31] [Server thread/INFO]: Player5[/127.239.57.213:41143] logged in with entity id 16258 at ([world]-37.3, 63.0, 45.047094691854525)
+[11:08:24] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:08:24] [Server thread/INFO]: Player5 left the game
+[11:08:46] [User Authenticator #173/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:08:46] [Server thread/INFO]: Player5 joined the game
+[11:08:46] [Server thread/INFO]: Player5[/127.186.179.12:53347] logged in with entity id 16362 at ([world]-37.3, 63.0, 45.7)
+[11:09:39] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:09:39] [Server thread/INFO]: Player5 left the game
+[11:10:00] [User Authenticator #174/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:10:01] [Server thread/INFO]: Player5 joined the game
+[11:10:01] [Server thread/INFO]: Player5[/127.25.16.35:52079] logged in with entity id 16453 at ([world]-37.3, 63.0, 45.7)
+[11:10:54] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:10:54] [Server thread/INFO]: Player5 left the game
+[11:11:16] [User Authenticator #175/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:11:17] [Server thread/INFO]: Player5 joined the game
+[11:11:17] [Server thread/INFO]: Player5[/127.86.132.190:60443] logged in with entity id 16548 at ([world]-37.3, 63.0, 45.7)
+[11:12:10] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:12:10] [Server thread/INFO]: Player5 left the game
+[11:12:35] [User Authenticator #176/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:12:36] [Server thread/INFO]: Player5 joined the game
+[11:12:36] [Server thread/INFO]: Player5[/127.59.138.122:49803] logged in with entity id 16651 at ([world]-37.3, 63.0, 44.3)
+[11:13:29] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:13:29] [Server thread/INFO]: Player5 left the game
+[11:14:04] [User Authenticator #177/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:14:05] [Server thread/INFO]: Player5 joined the game
+[11:14:05] [Server thread/INFO]: Player5[/127.236.70.89:35787] logged in with entity id 16743 at ([world]-38.074753037432146, 64.0, 43.3)
+[11:14:57] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:14:57] [Server thread/INFO]: Player5 left the game
+[11:15:25] [User Authenticator #178/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:15:26] [Server thread/INFO]: Player5 joined the game
+[11:15:26] [Server thread/INFO]: Player5[/127.70.156.18:52191] logged in with entity id 16842 at ([world]-37.3, 64.0, 43.3)
+[11:16:18] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:16:18] [Server thread/INFO]: Player5 left the game
+[11:16:39] [User Authenticator #179/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:16:40] [Server thread/INFO]: Player5 joined the game
+[11:16:40] [Server thread/INFO]: Player5[/127.165.55.115:60587] logged in with entity id 16934 at ([world]-39.7, 64.0, 45.7)
+[11:17:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:17:33] [Server thread/INFO]: Player5 left the game
+[11:17:57] [User Authenticator #180/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:17:58] [Server thread/INFO]: Player5 joined the game
+[11:17:58] [Server thread/INFO]: Player5[/127.245.211.212:39851] logged in with entity id 17024 at ([world]-37.3, 64.0, 46.7)
+[11:18:50] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:18:50] [Server thread/INFO]: Player5 left the game
+[11:19:19] [User Authenticator #181/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:19:20] [Server thread/INFO]: Player5 joined the game
+[11:19:20] [Server thread/INFO]: Player5[/127.151.72.102:58085] logged in with entity id 17117 at ([world]-37.7, 63.0, 45.7)
+[11:20:12] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:20:12] [Server thread/INFO]: Player5 left the game
+[11:20:35] [User Authenticator #182/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:20:36] [Server thread/INFO]: Player5 joined the game
+[11:20:36] [Server thread/INFO]: Player5[/127.100.22.1:39093] logged in with entity id 17219 at ([world]-39.7, 64.0, 45.7)
+[11:21:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:21:28] [Server thread/INFO]: Player5 left the game
+[11:21:45] [User Authenticator #183/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:21:45] [Server thread/INFO]: Player5 joined the game
+[11:21:45] [Server thread/INFO]: Player5[/127.212.166.24:46089] logged in with entity id 17308 at ([world]-37.3, 63.0, 44.93286517338533)
+[11:22:39] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:22:39] [Server thread/INFO]: Player5 left the game
+[11:22:58] [User Authenticator #184/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:22:58] [Server thread/INFO]: Player5 joined the game
+[11:22:58] [Server thread/INFO]: Player5[/127.200.197.191:33059] logged in with entity id 17407 at ([world]-37.3, 63.0, 45.7)
+[11:23:52] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:23:52] [Server thread/INFO]: Player5 left the game
+[11:24:15] [User Authenticator #185/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:24:16] [Server thread/INFO]: Player5 joined the game
+[11:24:16] [Server thread/INFO]: Player5[/127.69.98.242:59299] logged in with entity id 17510 at ([world]-37.3, 63.0, 44.3)
+[11:25:09] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:25:09] [Server thread/INFO]: Player5 left the game
+[11:25:33] [User Authenticator #186/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:25:34] [Server thread/INFO]: Player5 joined the game
+[11:25:34] [Server thread/INFO]: Player5[/127.10.86.250:60777] logged in with entity id 17600 at ([world]-37.3, 63.0, 45.7)
+[11:26:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:26:26] [Server thread/INFO]: Player5 left the game
+[11:26:50] [User Authenticator #187/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:26:51] [Server thread/INFO]: Player5 joined the game
+[11:26:51] [Server thread/INFO]: Player5[/127.231.245.178:56387] logged in with entity id 17678 at ([world]-37.3, 63.0, 44.3)
+[11:27:43] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:27:43] [Server thread/INFO]: Player5 left the game
+[11:28:05] [User Authenticator #188/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:28:05] [Server thread/INFO]: Player5 joined the game
+[11:28:05] [Server thread/INFO]: Player5[/127.211.68.54:35335] logged in with entity id 17752 at ([world]-37.3, 63.0, 45.37851841114162)
+[11:28:59] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:28:59] [Server thread/INFO]: Player5 left the game
+[11:29:24] [User Authenticator #189/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:29:25] [Server thread/INFO]: Player5 joined the game
+[11:29:25] [Server thread/INFO]: Player5[/127.82.132.205:57681] logged in with entity id 17850 at ([world]-37.3, 63.0, 45.7)
+[11:30:17] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:30:17] [Server thread/INFO]: Player5 left the game
+[11:30:34] [User Authenticator #190/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:30:34] [Server thread/INFO]: Player5 joined the game
+[11:30:34] [Server thread/INFO]: Player5[/127.62.76.96:54543] logged in with entity id 17949 at ([world]-37.3, 63.0, 44.3)
+[11:31:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:31:28] [Server thread/INFO]: Player5 left the game
+[11:31:50] [User Authenticator #191/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:31:51] [Server thread/INFO]: Player5 joined the game
+[11:31:51] [Server thread/INFO]: Player5[/127.101.18.217:58295] logged in with entity id 18043 at ([world]-38.09432952947257, 64.0, 43.3)
+[11:32:43] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:32:43] [Server thread/INFO]: Player5 left the game
+[11:33:04] [User Authenticator #192/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:33:04] [Server thread/INFO]: Player5 joined the game
+[11:33:04] [Server thread/INFO]: Player5[/127.196.150.186:40321] logged in with entity id 18139 at ([world]-37.3, 64.0, 43.3)
+[11:33:57] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:33:57] [Server thread/INFO]: Player5 left the game
+[11:34:26] [User Authenticator #193/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:34:26] [Server thread/INFO]: Player5 joined the game
+[11:34:26] [Server thread/INFO]: Player5[/127.187.11.174:57511] logged in with entity id 18231 at ([world]-37.3, 63.0, 45.7)
+[11:35:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:35:15] [Server thread/INFO]: Player5 left the game
+[11:35:34] [User Authenticator #194/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:35:35] [Server thread/INFO]: Player5 joined the game
+[11:35:35] [Server thread/INFO]: Player5[/127.86.198.57:44161] logged in with entity id 18309 at ([world]-40.7, 65.0, 43.3)
+[11:36:28] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:36:28] [Server thread/INFO]: Player5 left the game
+[11:36:48] [User Authenticator #195/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:36:48] [Server thread/INFO]: Player5 joined the game
+[11:36:48] [Server thread/INFO]: Player5[/127.178.169.255:40061] logged in with entity id 18391 at ([world]-40.494810414375344, 67.0, 48.14387772330186)
+[11:37:41] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:37:41] [Server thread/INFO]: Player5 left the game
+[11:38:02] [User Authenticator #196/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:38:03] [Server thread/INFO]: Player5 joined the game
+[11:38:03] [Server thread/INFO]: Player5[/127.210.171.176:46633] logged in with entity id 18470 at ([world]-38.3, 67.0, 48.90990896455047)
+[11:38:55] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:38:55] [Server thread/INFO]: Player5 left the game
+[11:39:20] [User Authenticator #197/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:39:21] [Server thread/INFO]: Player5 joined the game
+[11:39:21] [Server thread/INFO]: Player5[/127.113.132.89:51547] logged in with entity id 18569 at ([world]-39.7, 64.0, 45.7)
+[11:40:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:40:13] [Server thread/INFO]: Player5 left the game
+[11:40:38] [User Authenticator #198/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:40:38] [Server thread/INFO]: Player5 joined the game
+[11:40:38] [Server thread/INFO]: Player5[/127.115.192.239:46221] logged in with entity id 18681 at ([world]-37.3, 63.0, 45.24161938466601)
+[11:41:32] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:41:32] [Server thread/INFO]: Player5 left the game
+[11:42:01] [User Authenticator #199/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:42:01] [Server thread/INFO]: Player5 joined the game
+[11:42:01] [Server thread/INFO]: Player5[/127.200.94.80:49445] logged in with entity id 18769 at ([world]-37.7, 64.0, 46.7)
+[11:42:54] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:42:54] [Server thread/INFO]: Player5 left the game
+[11:43:13] [User Authenticator #200/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:43:13] [Server thread/INFO]: Player5 joined the game
+[11:43:13] [Server thread/INFO]: Player5[/127.41.243.154:58691] logged in with entity id 18861 at ([world]-37.3, 64.0, 45.70816595492482)
+[11:44:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:44:07] [Server thread/INFO]: Player5 left the game
+[11:44:29] [User Authenticator #201/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:44:30] [Server thread/INFO]: Player5 joined the game
+[11:44:30] [Server thread/INFO]: Player5[/127.55.247.10:48005] logged in with entity id 18949 at ([world]-37.7, 63.0, 45.7)
+[11:45:21] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:45:21] [Server thread/INFO]: Player5 left the game
+[11:45:42] [User Authenticator #202/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:45:43] [Server thread/INFO]: Player5 joined the game
+[11:45:43] [Server thread/INFO]: Player5[/127.12.49.228:34583] logged in with entity id 19029 at ([world]-37.3, 63.0, 44.3)
+[11:46:35] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:46:35] [Server thread/INFO]: Player5 left the game
+[11:46:59] [User Authenticator #203/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:47:00] [Server thread/INFO]: Player5 joined the game
+[11:47:00] [Server thread/INFO]: Player5[/127.67.14.39:39879] logged in with entity id 19117 at ([world]-37.3, 63.0, 44.3)
+[11:47:53] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:47:53] [Server thread/INFO]: Player5 left the game
+[11:48:13] [User Authenticator #204/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:48:13] [Server thread/INFO]: Player5 joined the game
+[11:48:13] [Server thread/INFO]: Player5[/127.139.19.253:52737] logged in with entity id 19213 at ([world]-37.3, 64.0, 46.52817736726104)
+[11:49:07] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:49:07] [Server thread/INFO]: Player5 left the game
+[11:49:32] [User Authenticator #205/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:49:32] [Server thread/INFO]: Player5 joined the game
+[11:49:32] [Server thread/INFO]: Player5[/127.16.212.100:46617] logged in with entity id 19318 at ([world]-37.3, 64.0, 46.7)
+[11:50:25] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:50:25] [Server thread/INFO]: Player5 left the game
+[11:50:44] [User Authenticator #206/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:50:45] [Server thread/INFO]: Player5 joined the game
+[11:50:45] [Server thread/INFO]: Player5[/127.209.106.183:58861] logged in with entity id 19412 at ([world]-38.7, 64.0, 43.31710951013523)
+[11:51:38] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:51:38] [Server thread/INFO]: Player5 left the game
+[11:51:56] [User Authenticator #207/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:51:56] [Server thread/INFO]: Player5 joined the game
+[11:51:56] [Server thread/INFO]: Player5[/127.178.13.63:38387] logged in with entity id 19508 at ([world]-41.7, 65.0, 46.7)
+[11:52:50] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:52:50] [Server thread/INFO]: Player5 left the game
+[11:53:13] [User Authenticator #208/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:53:14] [Server thread/INFO]: Player5 joined the game
+[11:53:14] [Server thread/INFO]: Player5[/127.113.230.236:46749] logged in with entity id 19604 at ([world]-41.7, 65.0, 45.86126756914582)
+[11:54:06] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:54:06] [Server thread/INFO]: Player5 left the game
+[11:54:28] [User Authenticator #209/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:54:28] [Server thread/INFO]: Player5 joined the game
+[11:54:28] [Server thread/INFO]: Player5[/127.145.100.100:36403] logged in with entity id 19699 at ([world]-37.833831189951276, 64.0, 45.06722471004507)
+[11:55:22] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:55:22] [Server thread/INFO]: Player5 left the game
+[11:55:42] [User Authenticator #210/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:55:43] [Server thread/INFO]: Player5 joined the game
+[11:55:43] [Server thread/INFO]: Player5[/127.184.196.63:43047] logged in with entity id 19799 at ([world]-39.7, 64.0, 45.7)
+[11:56:36] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:56:36] [Server thread/INFO]: Player5 left the game
+[11:56:57] [User Authenticator #211/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:56:57] [Server thread/INFO]: Player5 joined the game
+[11:56:57] [Server thread/INFO]: Player5[/127.220.219.229:44507] logged in with entity id 19884 at ([world]-39.7, 64.0, 45.7)
+[11:57:50] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:57:50] [Server thread/INFO]: Player5 left the game
+[11:58:10] [User Authenticator #212/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:58:10] [Server thread/INFO]: Player5 joined the game
+[11:58:10] [Server thread/INFO]: Player5[/127.17.70.254:36189] logged in with entity id 19977 at ([world]-39.7, 64.0, 44.3)
+[11:59:03] [Server thread/INFO]: Player5 lost connection: Disconnected
+[11:59:03] [Server thread/INFO]: Player5 left the game
+[11:59:20] [User Authenticator #213/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[11:59:20] [Server thread/INFO]: Player5 joined the game
+[11:59:20] [Server thread/INFO]: Player5[/127.61.225.18:42435] logged in with entity id 20056 at ([world]-37.602714611854, 63.0, 44.3)
+[12:00:13] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:00:13] [Server thread/INFO]: Player5 left the game
+[12:00:40] [User Authenticator #214/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:00:40] [Server thread/INFO]: Player5 joined the game
+[12:00:40] [Server thread/INFO]: Player5[/127.100.55.10:47453] logged in with entity id 20153 at ([world]-37.7, 63.0, 45.7)
+[12:01:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:01:33] [Server thread/INFO]: Player5 left the game
+[12:01:53] [User Authenticator #215/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:01:54] [Server thread/INFO]: Player5 joined the game
+[12:01:54] [Server thread/INFO]: Player5[/127.207.135.36:44367] logged in with entity id 20243 at ([world]-37.3, 64.0, 46.7)
+[12:02:45] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:02:45] [Server thread/INFO]: Player5 left the game
+[12:03:09] [User Authenticator #216/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:03:09] [Server thread/INFO]: Player5 joined the game
+[12:03:09] [Server thread/INFO]: Player5[/127.124.23.229:47041] logged in with entity id 20332 at ([world]-37.3, 64.0, 46.7)
+[12:04:03] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:04:03] [Server thread/INFO]: Player5 left the game
+[12:04:22] [User Authenticator #217/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:04:23] [Server thread/INFO]: Player5 joined the game
+[12:04:23] [Server thread/INFO]: Player5[/127.81.62.224:33235] logged in with entity id 20419 at ([world]-37.3, 63.0, 44.3)
+[12:05:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:05:15] [Server thread/INFO]: Player5 left the game
+[12:05:36] [User Authenticator #218/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:05:36] [Server thread/INFO]: Player5 joined the game
+[12:05:36] [Server thread/INFO]: Player5[/127.53.178.246:42989] logged in with entity id 20512 at ([world]-37.7, 63.0, 45.7)
+[12:06:29] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:06:29] [Server thread/INFO]: Player5 left the game
+[12:06:50] [User Authenticator #219/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:06:51] [Server thread/INFO]: Player5 joined the game
+[12:06:51] [Server thread/INFO]: Player5[/127.43.177.146:50937] logged in with entity id 20612 at ([world]-37.7, 63.0, 44.3)
+[12:07:42] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:07:42] [Server thread/INFO]: Player5 left the game
+[12:08:02] [User Authenticator #220/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:08:02] [Server thread/INFO]: Player5 joined the game
+[12:08:02] [Server thread/INFO]: Player5[/127.169.16.209:58569] logged in with entity id 20702 at ([world]-37.7, 63.0, 44.3)
+[12:08:56] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:08:56] [Server thread/INFO]: Player5 left the game
+[12:09:18] [User Authenticator #221/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:09:19] [Server thread/INFO]: Player5 joined the game
+[12:09:19] [Server thread/INFO]: Player5[/127.161.62.186:39219] logged in with entity id 20798 at ([world]-37.3, 62.0, 43.3)
+[12:10:10] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:10:10] [Server thread/INFO]: Player5 left the game
+[12:10:28] [User Authenticator #222/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:10:28] [Server thread/INFO]: Player5 joined the game
+[12:10:28] [Server thread/INFO]: Player5[/127.50.199.220:41859] logged in with entity id 20888 at ([world]-38.7, 62.0, 43.3)
+[12:11:22] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:11:22] [Server thread/INFO]: Player5 left the game
+[12:11:43] [User Authenticator #223/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:11:44] [Server thread/INFO]: Player5 joined the game
+[12:11:44] [Server thread/INFO]: Player5[/127.226.55.20:42359] logged in with entity id 20977 at ([world]-40.7, 63.0, 44.3)
+[12:12:36] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:12:36] [Server thread/INFO]: Player5 left the game
+[12:12:58] [User Authenticator #224/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:12:59] [Server thread/INFO]: Player5 joined the game
+[12:12:59] [Server thread/INFO]: Player5[/127.119.50.123:50667] logged in with entity id 21063 at ([world]-38.41454509539402, 63.0, 46.05351497274476)
+[12:13:52] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:13:52] [Server thread/INFO]: Player5 left the game
+[12:14:16] [User Authenticator #225/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:14:17] [Server thread/INFO]: Player5 joined the game
+[12:14:17] [Server thread/INFO]: Player5[/127.6.222.255:44569] logged in with entity id 21144 at ([world]-36.3, 62.0, 44.3)
+[12:15:10] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:15:10] [Server thread/INFO]: Player5 left the game
+[12:15:30] [User Authenticator #226/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:15:31] [Server thread/INFO]: Player5 joined the game
+[12:15:31] [Server thread/INFO]: Player5[/127.113.57.198:35985] logged in with entity id 21238 at ([world]-37.3, 62.0, 43.3)
+[12:16:24] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:16:24] [Server thread/INFO]: Player5 left the game
+[12:16:49] [User Authenticator #227/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:16:50] [Server thread/INFO]: Player5 joined the game
+[12:16:50] [Server thread/INFO]: Player5[/127.205.238.115:33573] logged in with entity id 21339 at ([world]-36.3, 62.0, 45.7)
+[12:17:42] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:17:42] [Server thread/INFO]: Player5 left the game
+[12:18:03] [User Authenticator #228/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:18:04] [Server thread/INFO]: Player5 joined the game
+[12:18:04] [Server thread/INFO]: Player5[/127.206.165.109:57981] logged in with entity id 21430 at ([world]-36.3, 62.0, 45.7)
+[12:18:58] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:18:58] [Server thread/INFO]: Player5 left the game
+[12:19:21] [User Authenticator #229/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:19:22] [Server thread/INFO]: Player5 joined the game
+[12:19:22] [Server thread/INFO]: Player5[/127.113.132.89:43987] logged in with entity id 21515 at ([world]-38.60929282792017, 62.0, 43.3)
+[12:20:15] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:20:15] [Server thread/INFO]: Player5 left the game
+[12:20:39] [User Authenticator #230/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:20:40] [Server thread/INFO]: Player5 joined the game
+[12:20:40] [Server thread/INFO]: Player5[/127.211.118.12:57635] logged in with entity id 21606 at ([world]-37.3, 62.0, 43.3)
+[12:21:33] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:21:33] [Server thread/INFO]: Player5 left the game
+[12:21:52] [User Authenticator #231/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:21:52] [Server thread/INFO]: Player5 joined the game
+[12:21:52] [Server thread/INFO]: Player5[/127.132.211.51:58601] logged in with entity id 21697 at ([world]-38.7, 62.0, 44.7)
+[12:22:45] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:22:45] [Server thread/INFO]: Player5 left the game
+[12:23:12] [User Authenticator #232/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:23:12] [Server thread/INFO]: Player5 joined the game
+[12:23:12] [Server thread/INFO]: Player5[/127.132.65.219:58333] logged in with entity id 21791 at ([world]-36.41104155109122, 63.0, 45.92511037970096)
+[12:24:05] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:24:05] [Server thread/INFO]: Player5 left the game
+[12:24:32] [User Authenticator #233/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:24:33] [Server thread/INFO]: Player5 joined the game
+[12:24:33] [Server thread/INFO]: Player5[/127.137.8.9:35909] logged in with entity id 21877 at ([world]-36.3, 62.0, 44.3)
+[12:25:26] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:25:26] [Server thread/INFO]: Player5 left the game
+[12:25:46] [User Authenticator #234/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:25:46] [Server thread/INFO]: Player5 joined the game
+[12:25:46] [Server thread/INFO]: Player5[/127.29.202.178:48181] logged in with entity id 21971 at ([world]-36.3, 62.0, 45.7)
+[12:26:38] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:26:38] [Server thread/INFO]: Player5 left the game
+[12:26:56] [User Authenticator #235/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:26:57] [Server thread/INFO]: Player5 joined the game
+[12:26:57] [Server thread/INFO]: Player5[/127.167.102.118:44699] logged in with entity id 22064 at ([world]-37.3, 62.0, 43.3)
+[12:27:50] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:27:50] [Server thread/INFO]: Player5 left the game
+[12:28:18] [User Authenticator #236/INFO]: UUID of player Player5 is abd58e08-2462-379a-81f3-fa94df810a52
+[12:28:18] [Server thread/INFO]: Player5 joined the game
+[12:28:18] [Server thread/INFO]: Player5[/127.74.117.203:54021] logged in with entity id 22165 at ([world]-36.633214287459495, 62.0, 45.7)
+[12:29:11] [Server thread/INFO]: Player5 lost connection: Disconnected
+[12:29:11] [Server thread/INFO]: Player5 left the game
+[12:29:26] [Server thread/INFO]: Stopping server
+[12:29:26] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
+[12:29:26] [Server thread/INFO]: Saving players
+[12:29:26] [Server thread/INFO]: Saving worlds
+[12:29:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 103 entity chunks, 0 poi chunks in world 'world' in 0.03s
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[12:29:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[12:29:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[12:29:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[12:29:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:29:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:29:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:29:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:29:26] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[12:29:26] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[12:29:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[12:29:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
