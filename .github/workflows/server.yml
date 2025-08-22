@@ -79,6 +79,10 @@ jobs:
           sed -i 's/^online-mode=.*/online-mode=false/' server.properties
         fi
 
+    - name: Show VPS IP
+      run: |
+        curl -s http://checkip.amazonaws.com
+        
     # --- Run Minecraft server ---
     - name: Start Minecraft Server (5 hours then stop)
       run: |
