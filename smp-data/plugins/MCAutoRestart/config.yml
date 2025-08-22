@@ -1,0 +1,191 @@
+restart-enabled: true
+
+restart-mode: interval
+
+interval:
+  hours: 5
+  
+  minutes: 25
+
+fixed:
+  times:
+  - 06:00
+  - '14:00'
+  - '22:00'
+
+conditional_restart:
+  enabled: false
+  
+  check_interval: 60
+  
+  min_interval_between_restarts: 30
+  
+  require_all_conditions: false
+  
+  tps:
+    enabled: false
+    
+    min_value: 15.0
+    
+    duration: 300
+  
+  memory:
+    enabled: false
+    
+    max_usage_percent: 90
+    
+    duration: 300
+  
+  player_count:
+    enabled: false
+    
+    max_players: 3
+    
+    duration: 600
+    
+    skip_if_empty: true
+
+api:
+  enabled: true
+  
+  events:
+    
+    notify_before_restart:
+    - 10
+    - 5
+    - 1
+  
+  delay_requests:
+    enabled: true
+    
+    max_delay: 15
+    
+    max_requests: 3
+  
+  cancel_requests:
+    enabled: false
+    
+    max_daily_requests: 2
+    
+    allowed_plugins: []
+
+notifications:
+  warnings:
+    enabled: true
+    
+    max_minutes_before: 60
+    
+    minutes:
+    - 60
+    - 30
+    - 15
+    - 10
+    - 5
+    - 4
+    - 3
+    - 2
+    - 1
+    
+    seconds:
+    - 30
+    - 15
+    - 10
+    - 5
+    - 4
+    - 3
+    - 2
+    - 1
+  
+  titles:
+    enabled: true
+    
+    show_minutes_before: 5
+    
+    minutes:
+    - 5
+    - 3
+    - 2
+    - 1
+    
+    seconds:
+    - 30
+    - 15
+    - 10
+    - 5
+    - 3
+    - 2
+    - 1
+    
+    fade_in: 10
+    stay: 70
+    fade_out: 20
+  
+  actionbar:
+    enabled: true
+    
+    show_minutes_before: 3
+    
+    update_frequency: 20
+  
+  sounds:
+    enabled: true
+    
+    warning_sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    
+    volume: 1.0
+    
+    pitch: 1.0
+    
+    final_warning_sound: ENTITY_PLAYER_LEVELUP
+  
+  visual_effects:
+    enabled: true
+    
+    effect_type: FLAME
+    
+    count: 50
+    
+    radius: 1.0
+
+bossbar:
+  enabled: true
+  
+  show_minutes_before: 10
+  
+  color: RED
+  style: SOLID
+
+compatibility:
+  protected_plugins:
+  - Essentials
+  - WorldGuard
+  - LuckPerms
+  - CMI
+  
+  restart_mode: GRACEFUL
+  
+  graceful_delay_seconds: 5
+
+task_scheduler:
+  
+  enabled: true
+  
+  max_concurrent_tasks: 10
+  
+  log_execution: true
+  
+  performance_monitoring: false
+  
+  priority_categories:
+  - restart
+  - system
+  - error_handler
+
+language:
+  default: ru_rus
+
+messages:
+  prefix: '&e[MCAutoRestart] &c'
+  restart: Dark Core SMP restarting...
+  warning-minutes: Dark Core SMP restart in %time%
+  warning-seconds: Dark Core SMP restart in %time%
