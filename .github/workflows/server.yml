@@ -84,7 +84,7 @@ jobs:
       run: |
         cd smp-data
         echo "Starting Minecraft server..."
-        timeout 300m java -Xms8G -Xmx14G -jar server.jar nogui
+        java -Xms8G -Xmx14G -jar server.jar nogui
         
     # --- Commit & push server data back to repo ---
     - name: Commit Minecraft server data
