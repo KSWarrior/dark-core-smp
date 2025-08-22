@@ -1,4 +1,4 @@
-name: Minecraft Server 1.21.5
+name: Dark Core SMP
 
 on:
   push:
@@ -101,6 +101,6 @@ jobs:
       if: ${{ always() }}
       uses: benc-uk/workflow-dispatch@v1
       with:
-        workflow: Minecraft Server 1.21.5
+        workflow: Dark Core SMP
         ref: main
         token: ${{ secrets.GITHUB_TOKEN }}
