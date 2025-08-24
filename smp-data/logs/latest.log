@@ -1,106 +1,96 @@
-[15:26:59] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
-[15:26:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
-[15:26:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:27:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[15:27:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[20:26:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Eclipse Adoptium Temurin-21.0.8+9) on Linux 6.11.0-1018-azure (amd64)
+[20:26:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) for Minecraft 1.21.5
+[20:26:25] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:26:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[20:26:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - Geyser-Spigot (2.8.3-SNAPSHOT), MCAutoRestart (1.3.3), SkinsRestorer (15.7.9), ViaBackwards (5.4.2), ViaVersion (5.4.2), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[15:27:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:27:06] [ServerMain/INFO]: Loaded 1373 recipes
-[15:27:07] [ServerMain/INFO]: Loaded 1484 advancements
-[15:27:07] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[15:27:07] [Server thread/INFO]: Loading properties
-[15:27:07] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
-[15:27:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:27:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:27:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:27:08] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:27:08] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:27:08] [Server thread/INFO]: Default game type: SURVIVAL
-[15:27:08] [Server thread/INFO]: Generating keypair
-[15:27:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:27:08] [Server thread/INFO]: Using epoll channel type
-[15:27:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:27:08] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[15:27:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[15:27:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[15:27:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:27:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:27:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[15:27:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[15:27:10] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:27:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:27:11] [Server thread/INFO]: [floodgate] Took 543ms to boot Floodgate
-[15:27:11] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[15:27:11] [Server thread/INFO]: [MCAutoRestart] Loading server plugin MCAutoRestart v1.3.3
-[15:27:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[15:27:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:27:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:27:11] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
-[15:27:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:27:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
-[15:27:12] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
-[15:27:12] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[15:27:12] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:27:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:27:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:27:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:27:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:27:12] [Server thread/INFO]: Preparing level "world"
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:27:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:27:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:27:13] [Server thread/INFO]: Preparing spawn area: 0%
-[15:27:14] [Server thread/INFO]: Preparing spawn area: 0%
-[15:27:14] [Server thread/INFO]: Time elapsed: 958 ms
-[15:27:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:27:14] [Server thread/INFO]: Preparing spawn area: 0%
-[15:27:14] [Server thread/INFO]: Time elapsed: 221 ms
-[15:27:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:27:14] [Server thread/INFO]: Preparing spawn area: 0%
-[15:27:14] [Server thread/INFO]: Time elapsed: 122 ms
-[15:27:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[15:27:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
-[15:27:14] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[15:27:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[15:27:15] [Server thread/INFO]: [MCAutoRestart] Enabling MCAutoRestart v1.3.3
-[15:27:15] [Server thread/INFO]: [MCAutoRestart] Loaded language file: ru_rus.yml
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_30: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_15: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_10: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_5: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_4: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_3: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_2: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task warning_seconds_1: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task show_bossbar: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/WARN]: [MCAutoRestart] Cannot schedule task show_actionbar: maximum number of concurrent tasks reached
-[15:27:15] [Server thread/INFO]: [MCAutoRestart] Запланирован рестарт через 04:57:44
-[15:27:15] [Server thread/INFO]: [MCAutoRestart] MCAutoRestart v1.3.1 включен. Рестарты активированы. Режим: interval
-[15:27:15] [Server thread/INFO]: [MCAutoRestart] API для интеграции с плагинами: активировано
-[15:27:15] [Server thread/INFO]: [MCAutoRestart] Планировщик задач: активирован
-[15:27:15] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[15:27:16] [Server thread/INFO]: [spark] Starting background profiler...
-[15:27:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:27:17] [Server thread/INFO]: [Geyser-Spigot] 
-[15:27:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b915 (git-master-8e295a9)
-[15:27:17] [Server thread/INFO]: [Geyser-Spigot] 
-[15:27:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:27:20] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
-[15:27:21] [Server thread/INFO]: [Geyser-Spigot] Done (3.797s)! Run /geyser help for help!
-[15:27:21] [Server thread/INFO]: Done preparing level "world" (8.245s)
-[15:27:21] [Server thread/INFO]: Starting GS4 status listener
-[15:27:21] [Server thread/WARN]: Unable to initialise query system on 0.0.0.0:25565
+[20:26:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:26:34] [ServerMain/INFO]: Loaded 1373 recipes
+[20:26:34] [ServerMain/INFO]: Loaded 1484 advancements
+[20:26:34] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[20:26:34] [Server thread/INFO]: Loading properties
+[20:26:34] [Server thread/INFO]: This server is running Paper version 1.21.5-114-ver/1.21.5@a1b3058 (2025-06-18T10:59:02Z) (Implementing API version 1.21.5-R0.1-SNAPSHOT)
+[20:26:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:26:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:26:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:26:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:26:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[20:26:35] [Server thread/INFO]: Default game type: SURVIVAL
+[20:26:35] [Server thread/INFO]: Generating keypair
+[20:26:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:26:35] [Server thread/INFO]: Using epoll channel type
+[20:26:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:26:35] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:26:36] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[20:26:36] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[20:26:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:26:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:26:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:26:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:26:38] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:26:38] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[20:26:38] [Server thread/INFO]: [floodgate] Took 755ms to boot Floodgate
+[20:26:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[20:26:38] [Server thread/INFO]: [MCAutoRestart] Loading server plugin MCAutoRestart v1.3.3
+[20:26:38] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[20:26:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:26:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:26:39] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
+[20:26:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:26:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
+[20:26:40] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.5.
+[20:26:40] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[20:26:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:26:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:26:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:26:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:26:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:26:41] [Server thread/INFO]: Preparing level "world"
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:26:41] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:26:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:26:41] [Server thread/INFO]: Preparing spawn area: 0%
+[20:26:42] [Server thread/INFO]: Preparing spawn area: 0%
+[20:26:42] [Server thread/INFO]: Time elapsed: 905 ms
+[20:26:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:26:42] [Server thread/INFO]: Preparing spawn area: 0%
+[20:26:42] [Server thread/INFO]: Time elapsed: 215 ms
+[20:26:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:26:42] [Server thread/INFO]: Preparing spawn area: 0%
+[20:26:42] [Server thread/INFO]: Time elapsed: 134 ms
+[20:26:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[20:26:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.5 (770)
+[20:26:42] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:26:43] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[20:26:43] [Server thread/INFO]: [MCAutoRestart] Enabling MCAutoRestart v1.3.3
+[20:26:43] [Server thread/INFO]: [MCAutoRestart] Loaded language file: ru_rus.yml
+[20:26:43] [Server thread/INFO]: [MCAutoRestart] Запланирован рестарт через -14:-1:-43
+[20:26:43] [Server thread/INFO]: [MCAutoRestart] MCAutoRestart v1.3.1 включен. Рестарты активированы. Режим: interval
+[20:26:43] [Server thread/INFO]: [MCAutoRestart] API для интеграции с плагинами: активировано
+[20:26:43] [Server thread/INFO]: [MCAutoRestart] Планировщик задач: активирован
+[20:26:43] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[20:26:44] [Server thread/INFO]: [spark] Starting background profiler...
+[20:26:45] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:26:45] [Server thread/INFO]: [Geyser-Spigot] 
+[20:26:45] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b915 (git-master-8e295a9)
+[20:26:45] [Server thread/INFO]: [Geyser-Spigot] 
+[20:26:45] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:26:49] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 25565
+[20:26:49] [Server thread/INFO]: [Geyser-Spigot] Done (3.366s)! Run /geyser help for help!
+[20:26:49] [Server thread/INFO]: Done preparing level "world" (8.356s)
+[20:26:49] [Server thread/INFO]: Starting GS4 status listener
+[20:26:49] [Server thread/WARN]: Unable to initialise query system on 0.0.0.0:25565
 java.net.BindException: Address already in use
 	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[?:?]
 	at java.base/sun.nio.ch.Net.bind(Net.java:565) ~[?:?]
@@ -117,677 +107,67 @@ java.net.BindException: Address already in use
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1161) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:308) ~[paper-1.21.5.jar:1.21.5-114-a1b3058]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:27:21] [Server thread/INFO]: Running delayed init tasks
-[15:27:21] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:27:21] [Server thread/INFO]: Done (23.037s)! For help, type "help"
-[19:25:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_60
-[19:25:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 60 мин.
-[19:55:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_30
-[19:55:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 30 мин.
-[20:10:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_15
-[20:10:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 15 мин.
-[20:15:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_10
-[20:15:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 10 мин.
-[20:15:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:15:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:16:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:17:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:18:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:19:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_5
-[20:20:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 5 мин.
-[20:20:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:20:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_4
-[20:21:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 4 мин.
-[20:21:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:21:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_3
-[20:22:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 3 мин.
-[20:22:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:22:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_2
-[20:23:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 2 мин.
-[20:23:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:23:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:05] [Server thread/INFO]: [MCAutoRestart] Executing task: warning_minutes_1
-[20:24:05] [Server thread/INFO]: [MCAutoRestart] Внимание! Автоматический рестарт сервера через 1 мин.
-[20:24:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:11] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:12] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:13] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:14] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:15] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:16] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:17] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:18] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:19] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:20] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:21] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:22] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:23] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:24] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:25] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:26] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:27] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:28] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:29] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:30] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:31] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:32] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:33] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:34] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:35] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:36] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:37] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:38] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:39] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:40] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:41] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:42] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:43] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:44] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:45] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:46] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:47] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:48] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:55] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:56] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:57] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:58] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:24:59] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:00] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:01] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:02] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:03] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:04] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:05] [Server thread/INFO]: [MCAutoRestart] Executing task: server_restart
-[20:25:05] [Server thread/INFO]: [MCAutoRestart] Перезапуск сервера...
-[20:25:05] [Server thread/INFO]: [MCAutoRestart] §e[MCAutoRestart] §cВыполняется плавный рестарт сервера...
-[20:25:05] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:06] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:07] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:08] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:09] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:10] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
-[20:25:10] [Server thread/INFO]: [MCAutoRestart] Executing task: graceful_restart
-[20:25:10] [Server thread/INFO]: Stopping the server
-[20:25:10] [Server thread/INFO]: Stopping server
-[20:25:10] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
-[20:25:10] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
-[20:25:10] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[20:25:10] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[20:25:10] [Server thread/INFO]: [MCAutoRestart] Disabling MCAutoRestart v1.3.3
-[20:25:10] [Server thread/INFO]: [MCAutoRestart] MCAutoRestart отключен
-[20:25:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[20:25:10] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[20:25:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[20:25:10] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[20:25:10] [Server thread/INFO]: Saving players
-[20:25:10] [Server thread/INFO]: Saving worlds
-[20:25:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 41 entity chunks, 0 poi chunks in world 'world' in 0.01s
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[20:25:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[20:25:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[20:25:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[20:25:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:25:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:25:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:25:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:25:10] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[20:25:10] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[20:25:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[20:25:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:26:49] [Server thread/INFO]: Running delayed init tasks
+[20:26:49] [Server thread/INFO]: [MCAutoRestart] Executing task: server_restart
+[20:26:49] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:26:49] [Server thread/INFO]: [MCAutoRestart] Перезапуск сервера...
+[20:26:49] [Server thread/INFO]: [MCAutoRestart] §e[MCAutoRestart] §cВыполняется плавный рестарт сервера...
+[20:26:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: actionbar_updater
+[20:26:49] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:49] [Server thread/INFO]: Done (27.370s)! For help, type "help"
+[20:26:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:50] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:51] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:52] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:53] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:54] [Server thread/INFO]: [MCAutoRestart] Executing repeating task: bossbar_updater
+[20:26:54] [Server thread/INFO]: [MCAutoRestart] Executing task: graceful_restart
+[20:26:54] [Server thread/INFO]: Stopping the server
+[20:26:54] [Server thread/INFO]: Stopping server
+[20:26:54] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.9
+[20:26:54] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.8.3-SNAPSHOT
+[20:26:54] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[20:26:54] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[20:26:54] [Server thread/INFO]: [MCAutoRestart] Disabling MCAutoRestart v1.3.3
+[20:26:54] [Server thread/INFO]: [MCAutoRestart] MCAutoRestart отключен
+[20:26:54] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[20:26:54] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:26:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[20:26:54] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:26:54] [Server thread/INFO]: Saving players
+[20:26:54] [WebSocketConnectReadThread-92/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[20:26:54] [Server thread/INFO]: Saving worlds
+[20:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.26s
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[20:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:26:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.09s
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[20:26:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.04s
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[20:26:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[20:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:26:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:26:55] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:26:55] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:26:55] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:26:55] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
